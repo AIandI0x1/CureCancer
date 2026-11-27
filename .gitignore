@@ -1,0 +1,29 @@
+# Python / data-science hygiene
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+# Data (never commit raw patient-level data)
+*.bam
+*.fastq
+*.fastq.gz
+*.vcf.gz
+*.maf
+*.h5
+*.hdf5
+*.parquet
+# Large artifacts (use pointers / releases instead)
+*.zip
+*.tar.gz
+*.gguf
+# OS / editor residue
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local run outputs (commit curated run logs only)
+outputs/
+results_tmp/
