@@ -1,0 +1,4691 @@
+{
+ "thresholds": {
+  "qc_min_umi_min_genes": {
+   "GSE261807": [
+    1000,
+    400
+   ],
+   "GSE155114": [
+    500,
+    300
+   ],
+   "GSE155114_strict": [
+    1000,
+    400
+   ]
+  },
+  "z_min": 1.0,
+  "z_gap": 0.5,
+  "min_nuclei_per_donor_type": 50,
+  "min_donors_per_group": 3
+ },
+ "GSE155114_CTE_vs_Control": {
+  "n_nuclei_qc": 39403,
+  "assigned_fraction": 0.45,
+  "nuclei_by_type": {
+   "Unassigned": 21682,
+   "Oligodendrocyte": 5335,
+   "Inhibitory": 3858,
+   "Astrocyte": 3762,
+   "Excitatory": 2621,
+   "Microglia": 2145
+  },
+  "types": {
+   "Excitatory": {
+    "n_donors": {
+     "CTE": 6,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 114.5,
+     "Control": 133.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": 0.353,
+      "ci95": [
+       -0.347,
+       1.053
+      ],
+      "qpois_p": 0.323,
+      "mwu_p": 0.573,
+      "total_counts": 478,
+      "bh_adj_p_across_types": 0.934
+     },
+     "CCND1": {
+      "log2RR": -0.326,
+      "ci95": [
+       -1.549,
+       0.897
+      ],
+      "qpois_p": 0.601,
+      "mwu_p": 0.514,
+      "total_counts": 38
+     },
+     "CDK4": {
+      "log2RR": -0.37,
+      "ci95": [
+       -1.148,
+       0.407
+      ],
+      "qpois_p": 0.351,
+      "mwu_p": 0.345,
+      "total_counts": 241
+     },
+     "CDK6": {
+      "log2RR": -0.483,
+      "ci95": [
+       -1.115,
+       0.149
+      ],
+      "qpois_p": 0.134,
+      "mwu_p": 0.414,
+      "total_counts": 545
+     },
+     "CCNE1": {
+      "log2RR": 2.014,
+      "ci95": [
+       0.602,
+       3.426
+      ],
+      "qpois_p": 0.00518,
+      "mwu_p": 0.0209,
+      "total_counts": 53
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.43,
+      "ci95": [
+       -1.319,
+       0.46
+      ],
+      "qpois_p": 0.344,
+      "mwu_p": 0.345,
+      "total_counts": 238
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": -0.341,
+      "ci95": [
+       -2.223,
+       1.542
+      ],
+      "qpois_p": 0.723,
+      "mwu_p": 0.788,
+      "total_counts": 21
+     },
+     "PCNA": {
+      "log2RR": 1.107,
+      "ci95": [
+       -0.349,
+       2.563
+      ],
+      "qpois_p": 0.136,
+      "mwu_p": 0.139,
+      "total_counts": 44
+     },
+     "MCM2": {
+      "log2RR": -1.267,
+      "ci95": [
+       -2.798,
+       0.265
+      ],
+      "qpois_p": 0.105,
+      "mwu_p": 0.886,
+      "total_counts": 30
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.616,
+      "ci95": [
+       -1.094,
+       -0.138
+      ],
+      "qpois_p": 0.0115,
+      "mwu_p": 0.181,
+      "total_counts": 836
+     },
+     "BRCA1": {
+      "log2RR": -0.397,
+      "ci95": [
+       -1.097,
+       0.303
+      ],
+      "qpois_p": 0.266,
+      "mwu_p": 0.573,
+      "total_counts": 356
+     },
+     "RAD51": {
+      "log2RR": -0.183,
+      "ci95": [
+       -1.178,
+       0.813
+      ],
+      "qpois_p": 0.719,
+      "mwu_p": 0.95,
+      "total_counts": 98
+     },
+     "XRCC1": {
+      "log2RR": 0.219,
+      "ci95": [
+       -0.653,
+       1.091
+      ],
+      "qpois_p": 0.622,
+      "mwu_p": 0.345,
+      "total_counts": 97
+     },
+     "OGG1": {
+      "log2RR": 0.211,
+      "ci95": [
+       -0.544,
+       0.966
+      ],
+      "qpois_p": 0.584,
+      "mwu_p": 0.662,
+      "total_counts": 128
+     },
+     "ERCC1": {
+      "log2RR": -0.457,
+      "ci95": [
+       -0.856,
+       -0.058
+      ],
+      "qpois_p": 0.0247,
+      "mwu_p": 0.414,
+      "total_counts": 558
+     },
+     "PARP1": {
+      "log2RR": -0.011,
+      "ci95": [
+       -0.525,
+       0.504
+      ],
+      "qpois_p": 0.967,
+      "mwu_p": 0.95,
+      "total_counts": 517
+     },
+     "MLH1": {
+      "log2RR": -0.518,
+      "ci95": [
+       -1.133,
+       0.097
+      ],
+      "qpois_p": 0.0987,
+      "mwu_p": 0.491,
+      "total_counts": 217
+     },
+     "MSH2": {
+      "log2RR": 0.378,
+      "ci95": [
+       -0.175,
+       0.93
+      ],
+      "qpois_p": 0.181,
+      "mwu_p": 0.02,
+      "total_counts": 413
+     },
+     "XRCC5": {
+      "log2RR": -0.362,
+      "ci95": [
+       -0.819,
+       0.096
+      ],
+      "qpois_p": 0.121,
+      "mwu_p": 0.573,
+      "total_counts": 769
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 3,
+      "n_genes_lower_in_case": 3,
+      "mean_z_case": -0.174,
+      "mean_z_ctl": 0.13,
+      "mwu_p": 0.755
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 8,
+      "n_genes_lower_in_case": 6,
+      "mean_z_case": 0.004,
+      "mean_z_ctl": -0.003,
+      "mwu_p": 0.852
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 72.95,
+     "CTE_2": 36.23,
+     "CTE_3": 40.27,
+     "CTE_4": 9.02,
+     "CTE_5": 123.95,
+     "CTE_8": 49.63,
+     "Control_1": 52.49,
+     "Control_2": 42.03,
+     "Control_3": 119.64,
+     "Control_4": 24.62,
+     "Control_5": 40.71,
+     "Control_6": 94.23,
+     "Control_7": 49.72,
+     "Control_8": 67.62
+    }
+   },
+   "Inhibitory": {
+    "n_donors": {
+     "CTE": 7,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 125.0,
+     "Control": 264.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.028,
+      "ci95": [
+       -0.687,
+       0.631
+      ],
+      "qpois_p": 0.934,
+      "mwu_p": 0.336,
+      "total_counts": 255,
+      "bh_adj_p_across_types": 0.934
+     },
+     "CCND1": {
+      "log2RR": -0.36,
+      "ci95": [
+       -1.622,
+       0.902
+      ],
+      "qpois_p": 0.576,
+      "mwu_p": 0.861,
+      "total_counts": 61
+     },
+     "CDK4": {
+      "log2RR": -0.137,
+      "ci95": [
+       -0.824,
+       0.551
+      ],
+      "qpois_p": 0.696,
+      "mwu_p": 0.536,
+      "total_counts": 195
+     },
+     "CDK6": {
+      "log2RR": -0.037,
+      "ci95": [
+       -0.649,
+       0.574
+      ],
+      "qpois_p": 0.904,
+      "mwu_p": 0.867,
+      "total_counts": 684
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "log2RR": 0.022,
+      "ci95": [
+       -2.922,
+       2.966
+      ],
+      "qpois_p": 0.988,
+      "mwu_p": 0.583,
+      "total_counts": 34
+     },
+     "CCNB1": {
+      "log2RR": -0.07,
+      "ci95": [
+       -0.844,
+       0.704
+      ],
+      "qpois_p": 0.859,
+      "mwu_p": 0.463,
+      "total_counts": 130
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "log2RR": -0.575,
+      "ci95": [
+       -1.627,
+       0.478
+      ],
+      "qpois_p": 0.285,
+      "mwu_p": 0.232,
+      "total_counts": 83
+     },
+     "MCM2": {
+      "status": "too few counts (<20 total)"
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.495,
+      "ci95": [
+       -0.946,
+       -0.045
+      ],
+      "qpois_p": 0.0312,
+      "mwu_p": 0.397,
+      "total_counts": 743
+     },
+     "BRCA1": {
+      "log2RR": 0.16,
+      "ci95": [
+       -0.49,
+       0.809
+      ],
+      "qpois_p": 0.63,
+      "mwu_p": 0.694,
+      "total_counts": 352
+     },
+     "RAD51": {
+      "log2RR": 0.255,
+      "ci95": [
+       -0.604,
+       1.114
+      ],
+      "qpois_p": 0.561,
+      "mwu_p": 0.397,
+      "total_counts": 64
+     },
+     "XRCC1": {
+      "log2RR": 0.897,
+      "ci95": [
+       -0.225,
+       2.018
+      ],
+      "qpois_p": 0.117,
+      "mwu_p": 0.224,
+      "total_counts": 80
+     },
+     "OGG1": {
+      "log2RR": -0.181,
+      "ci95": [
+       -0.875,
+       0.512
+      ],
+      "qpois_p": 0.608,
+      "mwu_p": 0.536,
+      "total_counts": 84
+     },
+     "ERCC1": {
+      "log2RR": -0.27,
+      "ci95": [
+       -0.873,
+       0.333
+      ],
+      "qpois_p": 0.381,
+      "mwu_p": 0.189,
+      "total_counts": 292
+     },
+     "PARP1": {
+      "log2RR": -0.117,
+      "ci95": [
+       -0.591,
+       0.357
+      ],
+      "qpois_p": 0.63,
+      "mwu_p": 0.867,
+      "total_counts": 658
+     },
+     "MLH1": {
+      "log2RR": -0.26,
+      "ci95": [
+       -0.764,
+       0.245
+      ],
+      "qpois_p": 0.313,
+      "mwu_p": 0.232,
+      "total_counts": 155
+     },
+     "MSH2": {
+      "log2RR": 0.306,
+      "ci95": [
+       -0.268,
+       0.881
+      ],
+      "qpois_p": 0.296,
+      "mwu_p": 1.0,
+      "total_counts": 233
+     },
+     "XRCC5": {
+      "log2RR": 0.04,
+      "ci95": [
+       -0.306,
+       0.386
+      ],
+      "qpois_p": 0.821,
+      "mwu_p": 1.0,
+      "total_counts": 669
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 3,
+      "n_genes_lower_in_case": 3,
+      "mean_z_case": -0.207,
+      "mean_z_ctl": 0.181,
+      "mwu_p": 0.152
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 7,
+      "n_genes_lower_in_case": 4,
+      "mean_z_case": -0.131,
+      "mean_z_ctl": 0.115,
+      "mwu_p": 0.463
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 63.63,
+     "CTE_2": 22.96,
+     "CTE_3": 56.21,
+     "CTE_4": 97.42,
+     "CTE_5": 62.13,
+     "CTE_6": 23.87,
+     "CTE_7": 27.01,
+     "Control_1": 53.29,
+     "Control_2": 65.59,
+     "Control_3": 88.07,
+     "Control_4": 37.21,
+     "Control_5": 34.44,
+     "Control_6": 75.79,
+     "Control_7": 40.26,
+     "Control_8": 103.15
+    }
+   },
+   "Astrocyte": {
+    "n_donors": {
+     "CTE": 7,
+     "Control": 6
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 285.0,
+     "Control": 333.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.345,
+      "ci95": [
+       -1.385,
+       0.694
+      ],
+      "qpois_p": 0.515,
+      "mwu_p": 0.886,
+      "total_counts": 83,
+      "bh_adj_p_across_types": 0.934
+     },
+     "CCND1": {
+      "log2RR": 0.03,
+      "ci95": [
+       -2.406,
+       2.467
+      ],
+      "qpois_p": 0.98,
+      "mwu_p": 0.836,
+      "total_counts": 86
+     },
+     "CDK4": {
+      "log2RR": -0.039,
+      "ci95": [
+       -0.839,
+       0.761
+      ],
+      "qpois_p": 0.924,
+      "mwu_p": 1.0,
+      "total_counts": 262
+     },
+     "CDK6": {
+      "log2RR": -0.036,
+      "ci95": [
+       -1.033,
+       0.962
+      ],
+      "qpois_p": 0.944,
+      "mwu_p": 0.836,
+      "total_counts": 256
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "log2RR": 1.021,
+      "ci95": [
+       -0.478,
+       2.52
+      ],
+      "qpois_p": 0.182,
+      "mwu_p": 0.147,
+      "total_counts": 23
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.631,
+      "ci95": [
+       -1.313,
+       0.052
+      ],
+      "qpois_p": 0.07,
+      "mwu_p": 0.138,
+      "total_counts": 114
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "status": "too few counts (<20 total)"
+     },
+     "MCM2": {
+      "status": "too few counts (<20 total)"
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.01,
+      "ci95": [
+       -0.364,
+       0.383
+      ],
+      "qpois_p": 0.96,
+      "mwu_p": 0.945,
+      "total_counts": 591
+     },
+     "BRCA1": {
+      "log2RR": 0.007,
+      "ci95": [
+       -0.746,
+       0.759
+      ],
+      "qpois_p": 0.986,
+      "mwu_p": 0.445,
+      "total_counts": 390
+     },
+     "RAD51": {
+      "log2RR": 0.636,
+      "ci95": [
+       -0.381,
+       1.653
+      ],
+      "qpois_p": 0.22,
+      "mwu_p": 0.101,
+      "total_counts": 77
+     },
+     "XRCC1": {
+      "log2RR": 0.225,
+      "ci95": [
+       -1.143,
+       1.593
+      ],
+      "qpois_p": 0.747,
+      "mwu_p": 0.615,
+      "total_counts": 44
+     },
+     "OGG1": {
+      "log2RR": 0.179,
+      "ci95": [
+       -0.642,
+       0.999
+      ],
+      "qpois_p": 0.669,
+      "mwu_p": 0.836,
+      "total_counts": 116
+     },
+     "ERCC1": {
+      "log2RR": -0.258,
+      "ci95": [
+       -0.802,
+       0.285
+      ],
+      "qpois_p": 0.352,
+      "mwu_p": 0.138,
+      "total_counts": 365
+     },
+     "PARP1": {
+      "log2RR": -0.618,
+      "ci95": [
+       -1.388,
+       0.152
+      ],
+      "qpois_p": 0.116,
+      "mwu_p": 0.534,
+      "total_counts": 293
+     },
+     "MLH1": {
+      "log2RR": 0.008,
+      "ci95": [
+       -0.523,
+       0.539
+      ],
+      "qpois_p": 0.976,
+      "mwu_p": 0.445,
+      "total_counts": 145
+     },
+     "MSH2": {
+      "log2RR": 0.032,
+      "ci95": [
+       -0.559,
+       0.624
+      ],
+      "qpois_p": 0.915,
+      "mwu_p": 1.0,
+      "total_counts": 142
+     },
+     "XRCC5": {
+      "log2RR": 0.04,
+      "ci95": [
+       -0.379,
+       0.46
+      ],
+      "qpois_p": 0.851,
+      "mwu_p": 0.945,
+      "total_counts": 451
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 3,
+      "n_genes_lower_in_case": 3,
+      "mean_z_case": -0.133,
+      "mean_z_ctl": 0.155,
+      "mwu_p": 0.534
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 8,
+      "n_genes_lower_in_case": 2,
+      "mean_z_case": -0.122,
+      "mean_z_ctl": 0.143,
+      "mwu_p": 0.234
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 31.36,
+     "CTE_2": 0.0,
+     "CTE_3": 21.58,
+     "CTE_4": 3.79,
+     "CTE_6": 38.73,
+     "CTE_7": 19.81,
+     "CTE_8": 31.41,
+     "Control_1": 0.0,
+     "Control_4": 15.33,
+     "Control_5": 18.45,
+     "Control_6": 43.28,
+     "Control_7": 71.93,
+     "Control_8": 22.45
+    }
+   },
+   "Microglia": {
+    "n_donors": {
+     "CTE": 5,
+     "Control": 7
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 205.0,
+     "Control": 147.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.132,
+      "ci95": [
+       -0.903,
+       0.639
+      ],
+      "qpois_p": 0.738,
+      "mwu_p": 1.0,
+      "total_counts": 58,
+      "bh_adj_p_across_types": 0.934
+     },
+     "CCND1": {
+      "log2RR": 1.425,
+      "ci95": [
+       -0.202,
+       3.052
+      ],
+      "qpois_p": 0.0861,
+      "mwu_p": 0.268,
+      "total_counts": 40
+     },
+     "CDK4": {
+      "log2RR": -0.19,
+      "ci95": [
+       -0.66,
+       0.28
+      ],
+      "qpois_p": 0.427,
+      "mwu_p": 0.432,
+      "total_counts": 151
+     },
+     "CDK6": {
+      "log2RR": -0.131,
+      "ci95": [
+       -0.671,
+       0.409
+      ],
+      "qpois_p": 0.635,
+      "mwu_p": 0.876,
+      "total_counts": 401
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.092,
+      "ci95": [
+       -0.944,
+       0.76
+      ],
+      "qpois_p": 0.832,
+      "mwu_p": 0.807,
+      "total_counts": 88
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "status": "too few counts (<20 total)"
+     },
+     "MCM2": {
+      "status": "too few counts (<20 total)"
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.2,
+      "ci95": [
+       -0.358,
+       0.757
+      ],
+      "qpois_p": 0.483,
+      "mwu_p": 0.639,
+      "total_counts": 591
+     },
+     "BRCA1": {
+      "log2RR": 0.142,
+      "ci95": [
+       -0.462,
+       0.746
+      ],
+      "qpois_p": 0.646,
+      "mwu_p": 0.876,
+      "total_counts": 202
+     },
+     "RAD51": {
+      "log2RR": 0.21,
+      "ci95": [
+       -0.958,
+       1.378
+      ],
+      "qpois_p": 0.724,
+      "mwu_p": 1.0,
+      "total_counts": 36
+     },
+     "XRCC1": {
+      "log2RR": -0.799,
+      "ci95": [
+       -2.174,
+       0.575
+      ],
+      "qpois_p": 0.254,
+      "mwu_p": 1.0,
+      "total_counts": 26
+     },
+     "OGG1": {
+      "log2RR": 0.693,
+      "ci95": [
+       0.1,
+       1.285
+      ],
+      "qpois_p": 0.0219,
+      "mwu_p": 0.106,
+      "total_counts": 45
+     },
+     "ERCC1": {
+      "log2RR": 0.319,
+      "ci95": [
+       -0.349,
+       0.987
+      ],
+      "qpois_p": 0.35,
+      "mwu_p": 1.0,
+      "total_counts": 222
+     },
+     "PARP1": {
+      "log2RR": -0.048,
+      "ci95": [
+       -0.859,
+       0.763
+      ],
+      "qpois_p": 0.908,
+      "mwu_p": 0.876,
+      "total_counts": 236
+     },
+     "MLH1": {
+      "log2RR": 0.113,
+      "ci95": [
+       -0.394,
+       0.621
+      ],
+      "qpois_p": 0.661,
+      "mwu_p": 0.876,
+      "total_counts": 90
+     },
+     "MSH2": {
+      "log2RR": -0.504,
+      "ci95": [
+       -1.685,
+       0.677
+      ],
+      "qpois_p": 0.403,
+      "mwu_p": 0.755,
+      "total_counts": 85
+     },
+     "XRCC5": {
+      "log2RR": 0.16,
+      "ci95": [
+       -0.707,
+       1.027
+      ],
+      "qpois_p": 0.717,
+      "mwu_p": 0.432,
+      "total_counts": 302
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "status": "fewer than 3 genes with >=100 total counts"
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 5,
+      "n_genes_lower_in_case": 1,
+      "mean_z_case": 0.08,
+      "mean_z_ctl": -0.057,
+      "mwu_p": 0.639
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 36.35,
+     "CTE_2": 34.26,
+     "CTE_3": 18.23,
+     "CTE_4": 25.93,
+     "CTE_7": 17.22,
+     "Control_1": 0.0,
+     "Control_2": 9.74,
+     "Control_4": 25.02,
+     "Control_5": 45.75,
+     "Control_6": 28.81,
+     "Control_7": 25.2,
+     "Control_8": 56.49
+    }
+   },
+   "Oligodendrocyte": {
+    "n_donors": {
+     "CTE": 5,
+     "Control": 6
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 161.0,
+     "Control": 597.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": 0.119,
+      "ci95": [
+       -0.676,
+       0.914
+      ],
+      "qpois_p": 0.769,
+      "mwu_p": 0.662,
+      "total_counts": 279,
+      "bh_adj_p_across_types": 0.934
+     },
+     "CCND1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK4": {
+      "log2RR": 0.12,
+      "ci95": [
+       -0.566,
+       0.807
+      ],
+      "qpois_p": 0.731,
+      "mwu_p": 0.647,
+      "total_counts": 179
+     },
+     "CDK6": {
+      "log2RR": 0.229,
+      "ci95": [
+       -0.543,
+       1.0
+      ],
+      "qpois_p": 0.561,
+      "mwu_p": 0.329,
+      "total_counts": 774
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "log2RR": 0.746,
+      "ci95": [
+       -2.732,
+       4.224
+      ],
+      "qpois_p": 0.674,
+      "mwu_p": 0.927,
+      "total_counts": 31
+     },
+     "CCNB1": {
+      "log2RR": -0.208,
+      "ci95": [
+       -1.492,
+       1.076
+      ],
+      "qpois_p": 0.751,
+      "mwu_p": 0.927,
+      "total_counts": 61
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": 0.878,
+      "ci95": [
+       -0.613,
+       2.369
+      ],
+      "qpois_p": 0.248,
+      "mwu_p": 1.0,
+      "total_counts": 22
+     },
+     "PCNA": {
+      "log2RR": -0.457,
+      "ci95": [
+       -1.802,
+       0.888
+      ],
+      "qpois_p": 0.505,
+      "mwu_p": 0.792,
+      "total_counts": 144
+     },
+     "MCM2": {
+      "log2RR": 1.824,
+      "ci95": [
+       0.055,
+       3.592
+      ],
+      "qpois_p": 0.0433,
+      "mwu_p": 0.779,
+      "total_counts": 35
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.056,
+      "ci95": [
+       -0.604,
+       0.717
+      ],
+      "qpois_p": 0.867,
+      "mwu_p": 0.662,
+      "total_counts": 899
+     },
+     "BRCA1": {
+      "log2RR": 0.178,
+      "ci95": [
+       -0.553,
+       0.909
+      ],
+      "qpois_p": 0.633,
+      "mwu_p": 0.931,
+      "total_counts": 251
+     },
+     "RAD51": {
+      "log2RR": 0.321,
+      "ci95": [
+       -1.114,
+       1.757
+      ],
+      "qpois_p": 0.661,
+      "mwu_p": 0.782,
+      "total_counts": 25
+     },
+     "XRCC1": {
+      "log2RR": -0.203,
+      "ci95": [
+       -1.146,
+       0.741
+      ],
+      "qpois_p": 0.674,
+      "mwu_p": 0.792,
+      "total_counts": 73
+     },
+     "OGG1": {
+      "log2RR": -0.484,
+      "ci95": [
+       -1.352,
+       0.384
+      ],
+      "qpois_p": 0.274,
+      "mwu_p": 0.329,
+      "total_counts": 66
+     },
+     "ERCC1": {
+      "log2RR": 0.571,
+      "ci95": [
+       0.068,
+       1.074
+      ],
+      "qpois_p": 0.0261,
+      "mwu_p": 0.429,
+      "total_counts": 223
+     },
+     "PARP1": {
+      "log2RR": -0.734,
+      "ci95": [
+       -1.281,
+       -0.188
+      ],
+      "qpois_p": 0.00847,
+      "mwu_p": 0.0519,
+      "total_counts": 1327
+     },
+     "MLH1": {
+      "log2RR": -0.271,
+      "ci95": [
+       -0.869,
+       0.326
+      ],
+      "qpois_p": 0.373,
+      "mwu_p": 0.0823,
+      "total_counts": 206
+     },
+     "MSH2": {
+      "log2RR": -0.254,
+      "ci95": [
+       -0.798,
+       0.289
+      ],
+      "qpois_p": 0.359,
+      "mwu_p": 0.247,
+      "total_counts": 250
+     },
+     "XRCC5": {
+      "log2RR": 0.179,
+      "ci95": [
+       -0.311,
+       0.669
+      ],
+      "qpois_p": 0.474,
+      "mwu_p": 0.0519,
+      "total_counts": 649
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 3,
+      "n_genes_lower_in_case": 1,
+      "mean_z_case": -0.082,
+      "mean_z_ctl": 0.069,
+      "mwu_p": 0.329
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 7,
+      "n_genes_lower_in_case": 3,
+      "mean_z_case": -0.082,
+      "mean_z_ctl": 0.068,
+      "mwu_p": 0.537
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 77.05,
+     "CTE_3": 16.45,
+     "CTE_4": 56.71,
+     "CTE_6": 47.86,
+     "CTE_7": 62.22,
+     "Control_2": 78.06,
+     "Control_3": 30.18,
+     "Control_5": 48.61,
+     "Control_6": 63.73,
+     "Control_7": 26.14,
+     "Control_8": 104.46
+    }
+   }
+  },
+  "genes_missing": []
+ },
+ "GSE155114_CTE_vs_Control_strictQC_sensitivity": {
+  "n_nuclei_qc": 10643,
+  "assigned_fraction": 0.518,
+  "nuclei_by_type": {
+   "Unassigned": 5135,
+   "Oligodendrocyte": 1481,
+   "Excitatory": 1181,
+   "Inhibitory": 1026,
+   "Astrocyte": 986,
+   "Microglia": 834
+  },
+  "types": {
+   "Excitatory": {
+    "n_donors": {
+     "CTE": 4,
+     "Control": 4
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 143.0,
+     "Control": 81.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": 0.357,
+      "ci95": [
+       -0.549,
+       1.263
+      ],
+      "qpois_p": 0.44,
+      "mwu_p": 0.486,
+      "total_counts": 340,
+      "bh_adj_p_across_types": 0.645
+     },
+     "CCND1": {
+      "log2RR": -1.321,
+      "ci95": [
+       -3.896,
+       1.255
+      ],
+      "qpois_p": 0.315,
+      "mwu_p": 0.882,
+      "total_counts": 20
+     },
+     "CDK4": {
+      "log2RR": -0.342,
+      "ci95": [
+       -1.587,
+       0.903
+      ],
+      "qpois_p": 0.59,
+      "mwu_p": 0.486,
+      "total_counts": 128
+     },
+     "CDK6": {
+      "log2RR": -0.28,
+      "ci95": [
+       -1.377,
+       0.817
+      ],
+      "qpois_p": 0.617,
+      "mwu_p": 0.686,
+      "total_counts": 322
+     },
+     "CCNE1": {
+      "log2RR": 1.554,
+      "ci95": [
+       -0.665,
+       3.773
+      ],
+      "qpois_p": 0.17,
+      "mwu_p": 0.561,
+      "total_counts": 42
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.412,
+      "ci95": [
+       -1.715,
+       0.891
+      ],
+      "qpois_p": 0.535,
+      "mwu_p": 0.2,
+      "total_counts": 142
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "log2RR": 1.361,
+      "ci95": [
+       -1.369,
+       4.092
+      ],
+      "qpois_p": 0.329,
+      "mwu_p": 0.183,
+      "total_counts": 25
+     },
+     "MCM2": {
+      "log2RR": -1.668,
+      "ci95": [
+       -3.505,
+       0.168
+      ],
+      "qpois_p": 0.075,
+      "mwu_p": 0.538,
+      "total_counts": 23
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.644,
+      "ci95": [
+       -1.333,
+       0.044
+      ],
+      "qpois_p": 0.0667,
+      "mwu_p": 0.2,
+      "total_counts": 473
+     },
+     "BRCA1": {
+      "log2RR": -0.21,
+      "ci95": [
+       -1.029,
+       0.61
+      ],
+      "qpois_p": 0.616,
+      "mwu_p": 0.686,
+      "total_counts": 202
+     },
+     "RAD51": {
+      "log2RR": -0.446,
+      "ci95": [
+       -1.949,
+       1.057
+      ],
+      "qpois_p": 0.561,
+      "mwu_p": 0.486,
+      "total_counts": 60
+     },
+     "XRCC1": {
+      "log2RR": 0.395,
+      "ci95": [
+       -1.27,
+       2.06
+      ],
+      "qpois_p": 0.642,
+      "mwu_p": 0.686,
+      "total_counts": 59
+     },
+     "OGG1": {
+      "log2RR": 0.153,
+      "ci95": [
+       -0.446,
+       0.753
+      ],
+      "qpois_p": 0.616,
+      "mwu_p": 0.886,
+      "total_counts": 72
+     },
+     "ERCC1": {
+      "log2RR": -0.609,
+      "ci95": [
+       -1.374,
+       0.156
+      ],
+      "qpois_p": 0.119,
+      "mwu_p": 0.486,
+      "total_counts": 358
+     },
+     "PARP1": {
+      "log2RR": -0.159,
+      "ci95": [
+       -1.213,
+       0.895
+      ],
+      "qpois_p": 0.768,
+      "mwu_p": 0.686,
+      "total_counts": 317
+     },
+     "MLH1": {
+      "log2RR": -0.36,
+      "ci95": [
+       -0.981,
+       0.262
+      ],
+      "qpois_p": 0.257,
+      "mwu_p": 0.486,
+      "total_counts": 140
+     },
+     "MSH2": {
+      "log2RR": 0.182,
+      "ci95": [
+       -0.624,
+       0.988
+      ],
+      "qpois_p": 0.658,
+      "mwu_p": 0.486,
+      "total_counts": 292
+     },
+     "XRCC5": {
+      "log2RR": -0.48,
+      "ci95": [
+       -1.185,
+       0.226
+      ],
+      "qpois_p": 0.182,
+      "mwu_p": 0.886,
+      "total_counts": 498
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 3,
+      "n_genes_lower_in_case": 3,
+      "mean_z_case": -0.147,
+      "mean_z_ctl": 0.147,
+      "mwu_p": 0.886
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 7,
+      "n_genes_lower_in_case": 6,
+      "mean_z_case": -0.175,
+      "mean_z_ctl": 0.175,
+      "mwu_p": 0.343
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 73.08,
+     "CTE_3": 42.65,
+     "CTE_5": 125.12,
+     "CTE_8": 51.4,
+     "Control_4": 32.03,
+     "Control_5": 33.26,
+     "Control_6": 94.19,
+     "Control_7": 70.27
+    }
+   },
+   "Inhibitory": {
+    "n_donors": {
+     "CTE": 2,
+     "Control": 3
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 103.0,
+     "Control": 170.0
+    },
+    "status": "skipped: fewer than 3 donors with >= 50 nuclei in a group"
+   },
+   "Astrocyte": {
+    "n_donors": {
+     "CTE": 4,
+     "Control": 3
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 125.5,
+     "Control": 125.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": 0.564,
+      "ci95": [
+       -0.564,
+       1.693
+      ],
+      "qpois_p": 0.327,
+      "mwu_p": 0.857,
+      "total_counts": 25,
+      "bh_adj_p_across_types": 0.645
+     },
+     "CCND1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK4": {
+      "log2RR": 0.051,
+      "ci95": [
+       -0.844,
+       0.946
+      ],
+      "qpois_p": 0.911,
+      "mwu_p": 1.0,
+      "total_counts": 107
+     },
+     "CDK6": {
+      "log2RR": -0.282,
+      "ci95": [
+       -0.908,
+       0.345
+      ],
+      "qpois_p": 0.378,
+      "mwu_p": 0.629,
+      "total_counts": 48
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.871,
+      "ci95": [
+       -1.654,
+       -0.088
+      ],
+      "qpois_p": 0.0293,
+      "mwu_p": 0.229,
+      "total_counts": 50
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "status": "too few counts (<20 total)"
+     },
+     "MCM2": {
+      "status": "too few counts (<20 total)"
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.129,
+      "ci95": [
+       -0.423,
+       0.164
+      ],
+      "qpois_p": 0.388,
+      "mwu_p": 0.857,
+      "total_counts": 236
+     },
+     "BRCA1": {
+      "log2RR": 0.518,
+      "ci95": [
+       -0.396,
+       1.432
+      ],
+      "qpois_p": 0.266,
+      "mwu_p": 0.629,
+      "total_counts": 159
+     },
+     "RAD51": {
+      "log2RR": 1.129,
+      "ci95": [
+       -0.498,
+       2.757
+      ],
+      "qpois_p": 0.174,
+      "mwu_p": 0.4,
+      "total_counts": 29
+     },
+     "XRCC1": {
+      "status": "too few counts (<20 total)"
+     },
+     "OGG1": {
+      "log2RR": -0.365,
+      "ci95": [
+       -1.153,
+       0.422
+      ],
+      "qpois_p": 0.363,
+      "mwu_p": 0.629,
+      "total_counts": 55
+     },
+     "ERCC1": {
+      "log2RR": -0.237,
+      "ci95": [
+       -0.857,
+       0.383
+      ],
+      "qpois_p": 0.454,
+      "mwu_p": 0.4,
+      "total_counts": 182
+     },
+     "PARP1": {
+      "log2RR": 0.043,
+      "ci95": [
+       -0.674,
+       0.759
+      ],
+      "qpois_p": 0.907,
+      "mwu_p": 0.629,
+      "total_counts": 62
+     },
+     "MLH1": {
+      "log2RR": -0.301,
+      "ci95": [
+       -1.082,
+       0.481
+      ],
+      "qpois_p": 0.451,
+      "mwu_p": 0.4,
+      "total_counts": 52
+     },
+     "MSH2": {
+      "log2RR": 0.261,
+      "ci95": [
+       -1.082,
+       1.605
+      ],
+      "qpois_p": 0.703,
+      "mwu_p": 0.857,
+      "total_counts": 49
+     },
+     "XRCC5": {
+      "log2RR": 0.084,
+      "ci95": [
+       -0.557,
+       0.725
+      ],
+      "qpois_p": 0.797,
+      "mwu_p": 0.629,
+      "total_counts": 164
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "status": "fewer than 3 genes with >=100 total counts"
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 4,
+      "n_genes_lower_in_case": 2,
+      "mean_z_case": -0.059,
+      "mean_z_ctl": 0.079,
+      "mwu_p": 0.857
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_3": 28.1,
+     "CTE_4": 12.27,
+     "CTE_7": 27.72,
+     "CTE_8": 6.42,
+     "Control_4": 12.79,
+     "Control_5": 9.1,
+     "Control_6": 17.73
+    }
+   },
+   "Microglia": {
+    "n_donors": {
+     "CTE": 4,
+     "Control": 4
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 77.0,
+     "Control": 85.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.276,
+      "ci95": [
+       -1.452,
+       0.899
+      ],
+      "qpois_p": 0.645,
+      "mwu_p": 1.0,
+      "total_counts": 45,
+      "bh_adj_p_across_types": 0.645
+     },
+     "CCND1": {
+      "log2RR": 0.444,
+      "ci95": [
+       -0.524,
+       1.411
+      ],
+      "qpois_p": 0.369,
+      "mwu_p": 0.686,
+      "total_counts": 20
+     },
+     "CDK4": {
+      "log2RR": -0.063,
+      "ci95": [
+       -0.972,
+       0.845
+      ],
+      "qpois_p": 0.892,
+      "mwu_p": 1.0,
+      "total_counts": 92
+     },
+     "CDK6": {
+      "log2RR": -0.889,
+      "ci95": [
+       -1.557,
+       -0.221
+      ],
+      "qpois_p": 0.00907,
+      "mwu_p": 0.114,
+      "total_counts": 190
+     },
+     "CCNE1": {
+      "status": "too few counts (<20 total)"
+     },
+     "CDK2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNA2": {
+      "status": "too few counts (<20 total)"
+     },
+     "CCNB1": {
+      "log2RR": -0.042,
+      "ci95": [
+       -0.972,
+       0.889
+      ],
+      "qpois_p": 0.93,
+      "mwu_p": 0.886,
+      "total_counts": 60
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "status": "too few counts (<20 total)"
+     },
+     "PCNA": {
+      "status": "too few counts (<20 total)"
+     },
+     "MCM2": {
+      "status": "too few counts (<20 total)"
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.239,
+      "ci95": [
+       -0.855,
+       0.376
+      ],
+      "qpois_p": 0.446,
+      "mwu_p": 0.686,
+      "total_counts": 284
+     },
+     "BRCA1": {
+      "log2RR": 0.579,
+      "ci95": [
+       0.068,
+       1.091
+      ],
+      "qpois_p": 0.0265,
+      "mwu_p": 0.114,
+      "total_counts": 128
+     },
+     "RAD51": {
+      "log2RR": -0.556,
+      "ci95": [
+       -2.04,
+       0.927
+      ],
+      "qpois_p": 0.462,
+      "mwu_p": 0.561,
+      "total_counts": 24
+     },
+     "XRCC1": {
+      "log2RR": -0.364,
+      "ci95": [
+       -1.606,
+       0.879
+      ],
+      "qpois_p": 0.566,
+      "mwu_p": 0.686,
+      "total_counts": 22
+     },
+     "OGG1": {
+      "log2RR": 1.232,
+      "ci95": [
+       0.489,
+       1.975
+      ],
+      "qpois_p": 0.00115,
+      "mwu_p": 0.0286,
+      "total_counts": 30
+     },
+     "ERCC1": {
+      "log2RR": 0.242,
+      "ci95": [
+       -0.414,
+       0.898
+      ],
+      "qpois_p": 0.469,
+      "mwu_p": 0.686,
+      "total_counts": 129
+     },
+     "PARP1": {
+      "log2RR": -0.077,
+      "ci95": [
+       -0.969,
+       0.815
+      ],
+      "qpois_p": 0.865,
+      "mwu_p": 0.886,
+      "total_counts": 112
+     },
+     "MLH1": {
+      "log2RR": 0.49,
+      "ci95": [
+       -0.522,
+       1.501
+      ],
+      "qpois_p": 0.343,
+      "mwu_p": 0.343,
+      "total_counts": 63
+     },
+     "MSH2": {
+      "log2RR": -0.386,
+      "ci95": [
+       -1.396,
+       0.624
+      ],
+      "qpois_p": 0.453,
+      "mwu_p": 0.486,
+      "total_counts": 50
+     },
+     "XRCC5": {
+      "log2RR": 0.666,
+      "ci95": [
+       0.237,
+       1.096
+      ],
+      "qpois_p": 0.00237,
+      "mwu_p": 0.0571,
+      "total_counts": 156
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "status": "fewer than 3 genes with >=100 total counts"
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 5,
+      "n_genes_lower_in_case": 2,
+      "mean_z_case": 0.25,
+      "mean_z_ctl": -0.25,
+      "mwu_p": 0.0286
+     }
+    },
+    "pin1_donor_cpm": {
+     "CTE_1": 50.52,
+     "CTE_2": 15.8,
+     "CTE_3": 27.2,
+     "CTE_4": 44.79,
+     "Control_4": 13.7,
+     "Control_5": 70.51,
+     "Control_6": 29.51,
+     "Control_7": 35.73
+    }
+   },
+   "Oligodendrocyte": {
+    "n_donors": {
+     "CTE": 2,
+     "Control": 4
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 154.5,
+     "Control": 201.0
+    },
+    "status": "skipped: fewer than 3 donors with >= 50 nuclei in a group"
+   }
+  },
+  "genes_missing": []
+ },
+ "GSE261807_CTE_vs_Control": {
+  "n_nuclei_qc": 200433,
+  "assigned_fraction": 0.693,
+  "nuclei_by_type": {
+   "Unassigned": 61607,
+   "Excitatory": 42040,
+   "Oligodendrocyte": 31020,
+   "Astrocyte": 29702,
+   "Inhibitory": 26474,
+   "Microglia": 9590
+  },
+  "types": {
+   "Excitatory": {
+    "n_donors": {
+     "CTE": 11,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 1283.0,
+     "Control": 1780.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.364,
+      "ci95": [
+       -0.694,
+       -0.034
+      ],
+      "qpois_p": 0.0308,
+      "mwu_p": 0.0908,
+      "total_counts": 21473,
+      "bh_adj_p_across_types": 0.0385
+     },
+     "CCND1": {
+      "log2RR": -0.425,
+      "ci95": [
+       -0.806,
+       -0.044
+      ],
+      "qpois_p": 0.0289,
+      "mwu_p": 0.0409,
+      "total_counts": 656
+     },
+     "CDK4": {
+      "log2RR": -0.326,
+      "ci95": [
+       -0.615,
+       -0.036
+      ],
+      "qpois_p": 0.0276,
+      "mwu_p": 0.206,
+      "total_counts": 2213
+     },
+     "CDK6": {
+      "log2RR": -0.083,
+      "ci95": [
+       -0.244,
+       0.077
+      ],
+      "qpois_p": 0.31,
+      "mwu_p": 0.129,
+      "total_counts": 67525
+     },
+     "CCNE1": {
+      "log2RR": -0.062,
+      "ci95": [
+       -0.291,
+       0.168
+      ],
+      "qpois_p": 0.598,
+      "mwu_p": 0.206,
+      "total_counts": 1353
+     },
+     "CDK2": {
+      "log2RR": -0.673,
+      "ci95": [
+       -1.423,
+       0.076
+      ],
+      "qpois_p": 0.0783,
+      "mwu_p": 0.159,
+      "total_counts": 51
+     },
+     "CCNA2": {
+      "log2RR": -0.215,
+      "ci95": [
+       -0.745,
+       0.316
+      ],
+      "qpois_p": 0.428,
+      "mwu_p": 0.31,
+      "total_counts": 1454
+     },
+     "CCNB1": {
+      "log2RR": -0.134,
+      "ci95": [
+       -0.492,
+       0.225
+      ],
+      "qpois_p": 0.465,
+      "mwu_p": 0.442,
+      "total_counts": 1832
+     },
+     "CDK1": {
+      "log2RR": 0.012,
+      "ci95": [
+       -0.887,
+       0.91
+      ],
+      "qpois_p": 0.979,
+      "mwu_p": 0.84,
+      "total_counts": 123
+     },
+     "E2F1": {
+      "log2RR": 0.178,
+      "ci95": [
+       -0.255,
+       0.61
+      ],
+      "qpois_p": 0.421,
+      "mwu_p": 0.206,
+      "total_counts": 804
+     },
+     "PCNA": {
+      "log2RR": -0.321,
+      "ci95": [
+       -0.642,
+       0.0
+      ],
+      "qpois_p": 0.0503,
+      "mwu_p": 0.272,
+      "total_counts": 1348
+     },
+     "MCM2": {
+      "log2RR": -0.206,
+      "ci95": [
+       -0.758,
+       0.347
+      ],
+      "qpois_p": 0.465,
+      "mwu_p": 0.351,
+      "total_counts": 173
+     },
+     "MKI67": {
+      "log2RR": 1.196,
+      "ci95": [
+       -1.856,
+       4.247
+      ],
+      "qpois_p": 0.443,
+      "mwu_p": 0.466,
+      "total_counts": 40
+     },
+     "ATM": {
+      "log2RR": 0.117,
+      "ci95": [
+       -0.031,
+       0.264
+      ],
+      "qpois_p": 0.122,
+      "mwu_p": 0.351,
+      "total_counts": 48289
+     },
+     "BRCA1": {
+      "log2RR": -0.534,
+      "ci95": [
+       -0.986,
+       -0.082
+      ],
+      "qpois_p": 0.0205,
+      "mwu_p": 0.0506,
+      "total_counts": 7773
+     },
+     "RAD51": {
+      "log2RR": -1.582,
+      "ci95": [
+       -3.037,
+       -0.128
+      ],
+      "qpois_p": 0.033,
+      "mwu_p": 0.0943,
+      "total_counts": 23
+     },
+     "XRCC1": {
+      "log2RR": 0.034,
+      "ci95": [
+       -0.119,
+       0.187
+      ],
+      "qpois_p": 0.665,
+      "mwu_p": 1.0,
+      "total_counts": 5012
+     },
+     "OGG1": {
+      "log2RR": -0.338,
+      "ci95": [
+       -0.638,
+       -0.037
+      ],
+      "qpois_p": 0.0275,
+      "mwu_p": 0.129,
+      "total_counts": 10596
+     },
+     "ERCC1": {
+      "log2RR": -0.055,
+      "ci95": [
+       -0.273,
+       0.163
+      ],
+      "qpois_p": 0.621,
+      "mwu_p": 0.6,
+      "total_counts": 20568
+     },
+     "PARP1": {
+      "log2RR": -0.183,
+      "ci95": [
+       -0.333,
+       -0.033
+      ],
+      "qpois_p": 0.0169,
+      "mwu_p": 0.0091,
+      "total_counts": 17448
+     },
+     "MLH1": {
+      "log2RR": -0.168,
+      "ci95": [
+       -0.317,
+       -0.018
+      ],
+      "qpois_p": 0.0283,
+      "mwu_p": 0.206,
+      "total_counts": 14598
+     },
+     "MSH2": {
+      "log2RR": -0.035,
+      "ci95": [
+       -0.165,
+       0.095
+      ],
+      "qpois_p": 0.601,
+      "mwu_p": 0.395,
+      "total_counts": 58709
+     },
+     "XRCC5": {
+      "log2RR": -0.073,
+      "ci95": [
+       -0.18,
+       0.035
+      ],
+      "qpois_p": 0.186,
+      "mwu_p": 0.109,
+      "total_counts": 57268
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 10,
+      "n_genes_lower_in_case": 8,
+      "mean_z_case": -0.091,
+      "mean_z_ctl": 0.24,
+      "mwu_p": 0.0908
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.224,
+      "mean_z_ctl": 0.239,
+      "mwu_p": 0.206
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 28.51,
+     "S16": 33.32,
+     "S17": 23.92,
+     "S2": 36.44,
+     "S20": 29.08,
+     "S23": 31.17,
+     "S26": 33.76,
+     "S30": 60.97,
+     "S34": 59.06,
+     "S4": 35.98,
+     "S7": 28.15,
+     "S14": 51.31,
+     "S15": 58.48,
+     "S18": 37.14,
+     "S24": 48.59,
+     "S27": 34.58,
+     "S31": 36.38,
+     "S8": 32.27,
+     "S9": 39.66,
+     "S11": 59.65,
+     "S12": 38.75,
+     "S19": 35.65,
+     "S22": 52.29,
+     "S28": 42.03,
+     "S3": 28.41,
+     "S32": 27.68,
+     "S35": 41.25,
+     "S5": 31.65
+    }
+   },
+   "Inhibitory": {
+    "n_donors": {
+     "CTE": 11,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 616.0,
+     "Control": 1228.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.462,
+      "ci95": [
+       -0.732,
+       -0.192
+      ],
+      "qpois_p": 0.000792,
+      "mwu_p": 0.0506,
+      "total_counts": 7082,
+      "bh_adj_p_across_types": 0.00198
+     },
+     "CCND1": {
+      "log2RR": -0.291,
+      "ci95": [
+       -1.052,
+       0.47
+      ],
+      "qpois_p": 0.453,
+      "mwu_p": 0.062,
+      "total_counts": 1505
+     },
+     "CDK4": {
+      "log2RR": -0.451,
+      "ci95": [
+       -0.761,
+       -0.141
+      ],
+      "qpois_p": 0.00437,
+      "mwu_p": 0.0328,
+      "total_counts": 1135
+     },
+     "CDK6": {
+      "log2RR": 0.132,
+      "ci95": [
+       -0.08,
+       0.344
+      ],
+      "qpois_p": 0.223,
+      "mwu_p": 0.395,
+      "total_counts": 14213
+     },
+     "CCNE1": {
+      "log2RR": -0.15,
+      "ci95": [
+       -0.366,
+       0.066
+      ],
+      "qpois_p": 0.174,
+      "mwu_p": 0.238,
+      "total_counts": 1143
+     },
+     "CDK2": {
+      "log2RR": 1.023,
+      "ci95": [
+       -0.295,
+       2.341
+      ],
+      "qpois_p": 0.128,
+      "mwu_p": 0.645,
+      "total_counts": 26
+     },
+     "CCNA2": {
+      "log2RR": -0.308,
+      "ci95": [
+       -0.754,
+       0.137
+      ],
+      "qpois_p": 0.175,
+      "mwu_p": 0.152,
+      "total_counts": 646
+     },
+     "CCNB1": {
+      "log2RR": -0.043,
+      "ci95": [
+       -0.378,
+       0.292
+      ],
+      "qpois_p": 0.801,
+      "mwu_p": 1.0,
+      "total_counts": 637
+     },
+     "CDK1": {
+      "log2RR": -0.073,
+      "ci95": [
+       -0.807,
+       0.661
+      ],
+      "qpois_p": 0.845,
+      "mwu_p": 0.836,
+      "total_counts": 39
+     },
+     "E2F1": {
+      "log2RR": 0.148,
+      "ci95": [
+       -0.225,
+       0.52
+      ],
+      "qpois_p": 0.438,
+      "mwu_p": 0.657,
+      "total_counts": 167
+     },
+     "PCNA": {
+      "log2RR": -0.421,
+      "ci95": [
+       -0.725,
+       -0.117
+      ],
+      "qpois_p": 0.00658,
+      "mwu_p": 0.0754,
+      "total_counts": 877
+     },
+     "MCM2": {
+      "log2RR": -0.597,
+      "ci95": [
+       -1.222,
+       0.028
+      ],
+      "qpois_p": 0.0614,
+      "mwu_p": 0.109,
+      "total_counts": 123
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.079,
+      "ci95": [
+       -0.091,
+       0.249
+      ],
+      "qpois_p": 0.36,
+      "mwu_p": 0.657,
+      "total_counts": 22262
+     },
+     "BRCA1": {
+      "log2RR": -0.355,
+      "ci95": [
+       -0.719,
+       0.009
+      ],
+      "qpois_p": 0.0561,
+      "mwu_p": 0.177,
+      "total_counts": 3566
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": 0.139,
+      "ci95": [
+       -0.06,
+       0.339
+      ],
+      "qpois_p": 0.171,
+      "mwu_p": 0.177,
+      "total_counts": 2566
+     },
+     "OGG1": {
+      "log2RR": -0.028,
+      "ci95": [
+       -0.28,
+       0.223
+      ],
+      "qpois_p": 0.824,
+      "mwu_p": 0.6,
+      "total_counts": 3890
+     },
+     "ERCC1": {
+      "log2RR": -0.2,
+      "ci95": [
+       -0.417,
+       0.016
+      ],
+      "qpois_p": 0.07,
+      "mwu_p": 0.272,
+      "total_counts": 4855
+     },
+     "PARP1": {
+      "log2RR": -0.171,
+      "ci95": [
+       -0.349,
+       0.007
+      ],
+      "qpois_p": 0.06,
+      "mwu_p": 0.062,
+      "total_counts": 6021
+     },
+     "MLH1": {
+      "log2RR": -0.146,
+      "ci95": [
+       -0.308,
+       0.016
+      ],
+      "qpois_p": 0.078,
+      "mwu_p": 0.31,
+      "total_counts": 7156
+     },
+     "MSH2": {
+      "log2RR": -0.105,
+      "ci95": [
+       -0.263,
+       0.052
+      ],
+      "qpois_p": 0.19,
+      "mwu_p": 0.152,
+      "total_counts": 22854
+     },
+     "XRCC5": {
+      "log2RR": -0.213,
+      "ci95": [
+       -0.348,
+       -0.077
+      ],
+      "qpois_p": 0.00209,
+      "mwu_p": 0.0259,
+      "total_counts": 24442
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.212,
+      "mean_z_ctl": 0.336,
+      "mwu_p": 0.0908
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.177,
+      "mean_z_ctl": 0.125,
+      "mwu_p": 0.206
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 23.88,
+     "S16": 26.71,
+     "S17": 24.29,
+     "S2": 26.92,
+     "S20": 32.48,
+     "S23": 22.81,
+     "S26": 26.81,
+     "S30": 36.18,
+     "S34": 76.87,
+     "S4": 29.54,
+     "S7": 22.89,
+     "S14": 42.81,
+     "S15": 45.03,
+     "S18": 35.39,
+     "S24": 52.45,
+     "S27": 29.52,
+     "S31": 32.13,
+     "S8": 26.15,
+     "S9": 40.75,
+     "S11": 39.08,
+     "S12": 30.73,
+     "S19": 31.33,
+     "S22": 42.1,
+     "S28": 24.68,
+     "S3": 26.21,
+     "S32": 21.42,
+     "S35": 34.84,
+     "S5": 26.2
+    }
+   },
+   "Astrocyte": {
+    "n_donors": {
+     "CTE": 11,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 380.0,
+     "Control": 1108.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.392,
+      "ci95": [
+       -0.812,
+       0.028
+      ],
+      "qpois_p": 0.0673,
+      "mwu_p": 0.109,
+      "total_counts": 1665,
+      "bh_adj_p_across_types": 0.0673
+     },
+     "CCND1": {
+      "log2RR": -0.159,
+      "ci95": [
+       -1.005,
+       0.687
+      ],
+      "qpois_p": 0.713,
+      "mwu_p": 0.904,
+      "total_counts": 217
+     },
+     "CDK4": {
+      "log2RR": -0.092,
+      "ci95": [
+       -0.414,
+       0.229
+      ],
+      "qpois_p": 0.573,
+      "mwu_p": 0.904,
+      "total_counts": 725
+     },
+     "CDK6": {
+      "log2RR": 0.249,
+      "ci95": [
+       -0.623,
+       1.121
+      ],
+      "qpois_p": 0.576,
+      "mwu_p": 0.6,
+      "total_counts": 2073
+     },
+     "CCNE1": {
+      "log2RR": 0.077,
+      "ci95": [
+       -0.573,
+       0.727
+      ],
+      "qpois_p": 0.816,
+      "mwu_p": 0.31,
+      "total_counts": 259
+     },
+     "CDK2": {
+      "log2RR": 0.634,
+      "ci95": [
+       -0.482,
+       1.751
+      ],
+      "qpois_p": 0.265,
+      "mwu_p": 0.482,
+      "total_counts": 131
+     },
+     "CCNA2": {
+      "log2RR": -0.072,
+      "ci95": [
+       -0.772,
+       0.629
+      ],
+      "qpois_p": 0.841,
+      "mwu_p": 0.545,
+      "total_counts": 312
+     },
+     "CCNB1": {
+      "log2RR": -0.253,
+      "ci95": [
+       -0.887,
+       0.381
+      ],
+      "qpois_p": 0.434,
+      "mwu_p": 0.206,
+      "total_counts": 178
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": 0.523,
+      "ci95": [
+       -0.021,
+       1.066
+      ],
+      "qpois_p": 0.0593,
+      "mwu_p": 0.206,
+      "total_counts": 124
+     },
+     "PCNA": {
+      "log2RR": -0.232,
+      "ci95": [
+       -0.569,
+       0.106
+      ],
+      "qpois_p": 0.178,
+      "mwu_p": 0.272,
+      "total_counts": 608
+     },
+     "MCM2": {
+      "log2RR": 0.756,
+      "ci95": [
+       0.012,
+       1.501
+      ],
+      "qpois_p": 0.0463,
+      "mwu_p": 0.476,
+      "total_counts": 64
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.19,
+      "ci95": [
+       -0.423,
+       0.043
+      ],
+      "qpois_p": 0.11,
+      "mwu_p": 0.31,
+      "total_counts": 14512
+     },
+     "BRCA1": {
+      "log2RR": -0.179,
+      "ci95": [
+       -0.496,
+       0.139
+      ],
+      "qpois_p": 0.27,
+      "mwu_p": 0.657,
+      "total_counts": 4104
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": -0.035,
+      "ci95": [
+       -0.449,
+       0.38
+      ],
+      "qpois_p": 0.87,
+      "mwu_p": 0.717,
+      "total_counts": 1130
+     },
+     "OGG1": {
+      "log2RR": 0.005,
+      "ci95": [
+       -0.152,
+       0.161
+      ],
+      "qpois_p": 0.954,
+      "mwu_p": 0.778,
+      "total_counts": 3614
+     },
+     "ERCC1": {
+      "log2RR": -0.196,
+      "ci95": [
+       -0.47,
+       0.078
+      ],
+      "qpois_p": 0.161,
+      "mwu_p": 0.442,
+      "total_counts": 1807
+     },
+     "PARP1": {
+      "log2RR": -0.215,
+      "ci95": [
+       -0.484,
+       0.054
+      ],
+      "qpois_p": 0.118,
+      "mwu_p": 0.0908,
+      "total_counts": 4088
+     },
+     "MLH1": {
+      "log2RR": -0.148,
+      "ci95": [
+       -0.31,
+       0.014
+      ],
+      "qpois_p": 0.0726,
+      "mwu_p": 0.31,
+      "total_counts": 5238
+     },
+     "MSH2": {
+      "log2RR": -0.101,
+      "ci95": [
+       -0.381,
+       0.178
+      ],
+      "qpois_p": 0.476,
+      "mwu_p": 0.351,
+      "total_counts": 4725
+     },
+     "XRCC5": {
+      "log2RR": 0.019,
+      "ci95": [
+       -0.201,
+       0.239
+      ],
+      "qpois_p": 0.866,
+      "mwu_p": 0.492,
+      "total_counts": 18147
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 5,
+      "mean_z_case": -0.054,
+      "mean_z_ctl": 0.012,
+      "mwu_p": 0.904
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.106,
+      "mean_z_ctl": 0.124,
+      "mwu_p": 0.31
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 9.53,
+     "S16": 12.96,
+     "S17": 16.89,
+     "S2": 9.63,
+     "S20": 10.33,
+     "S23": 15.22,
+     "S26": 10.67,
+     "S30": 26.26,
+     "S34": 9.83,
+     "S4": 11.08,
+     "S7": 8.19,
+     "S14": 19.34,
+     "S15": 23.82,
+     "S18": 15.84,
+     "S24": 19.93,
+     "S27": 13.47,
+     "S31": 12.2,
+     "S8": 7.94,
+     "S9": 20.6,
+     "S11": 7.61,
+     "S12": 14.64,
+     "S19": 20.98,
+     "S22": 19.99,
+     "S28": 8.2,
+     "S3": 10.42,
+     "S32": 12.11,
+     "S35": 20.18,
+     "S5": 18.75
+    }
+   },
+   "Microglia": {
+    "n_donors": {
+     "CTE": 9,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 213.0,
+     "Control": 427.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.641,
+      "ci95": [
+       -0.984,
+       -0.299
+      ],
+      "qpois_p": 0.000241,
+      "mwu_p": 0.0206,
+      "total_counts": 636,
+      "bh_adj_p_across_types": 0.0012
+     },
+     "CCND1": {
+      "log2RR": -0.486,
+      "ci95": [
+       -1.298,
+       0.325
+      ],
+      "qpois_p": 0.24,
+      "mwu_p": 0.37,
+      "total_counts": 853
+     },
+     "CDK4": {
+      "log2RR": -0.641,
+      "ci95": [
+       -1.069,
+       -0.212
+      ],
+      "qpois_p": 0.00337,
+      "mwu_p": 0.00551,
+      "total_counts": 148
+     },
+     "CDK6": {
+      "log2RR": -0.273,
+      "ci95": [
+       -0.591,
+       0.044
+      ],
+      "qpois_p": 0.091,
+      "mwu_p": 0.167,
+      "total_counts": 5438
+     },
+     "CCNE1": {
+      "log2RR": 0.273,
+      "ci95": [
+       -0.587,
+       1.133
+      ],
+      "qpois_p": 0.534,
+      "mwu_p": 1.0,
+      "total_counts": 52
+     },
+     "CDK2": {
+      "log2RR": 0.44,
+      "ci95": [
+       -0.723,
+       1.603
+      ],
+      "qpois_p": 0.458,
+      "mwu_p": 0.37,
+      "total_counts": 59
+     },
+     "CCNA2": {
+      "log2RR": 0.093,
+      "ci95": [
+       -0.738,
+       0.925
+      ],
+      "qpois_p": 0.826,
+      "mwu_p": 0.606,
+      "total_counts": 76
+     },
+     "CCNB1": {
+      "log2RR": -0.024,
+      "ci95": [
+       -0.601,
+       0.553
+      ],
+      "qpois_p": 0.935,
+      "mwu_p": 0.815,
+      "total_counts": 70
+     },
+     "CDK1": {
+      "log2RR": 1.979,
+      "ci95": [
+       -1.589,
+       5.547
+      ],
+      "qpois_p": 0.277,
+      "mwu_p": 0.676,
+      "total_counts": 20
+     },
+     "E2F1": {
+      "log2RR": 0.168,
+      "ci95": [
+       -0.834,
+       1.171
+      ],
+      "qpois_p": 0.742,
+      "mwu_p": 1.0,
+      "total_counts": 34
+     },
+     "PCNA": {
+      "log2RR": -0.082,
+      "ci95": [
+       -0.562,
+       0.399
+      ],
+      "qpois_p": 0.739,
+      "mwu_p": 0.321,
+      "total_counts": 158
+     },
+     "MCM2": {
+      "log2RR": -1.224,
+      "ci95": [
+       -2.469,
+       0.021
+      ],
+      "qpois_p": 0.054,
+      "mwu_p": 0.219,
+      "total_counts": 21
+     },
+     "MKI67": {
+      "log2RR": -0.424,
+      "ci95": [
+       -3.823,
+       2.975
+      ],
+      "qpois_p": 0.807,
+      "mwu_p": 0.36,
+      "total_counts": 29
+     },
+     "ATM": {
+      "log2RR": -0.215,
+      "ci95": [
+       -0.601,
+       0.172
+      ],
+      "qpois_p": 0.276,
+      "mwu_p": 0.606,
+      "total_counts": 15022
+     },
+     "BRCA1": {
+      "log2RR": -0.398,
+      "ci95": [
+       -0.777,
+       -0.018
+      ],
+      "qpois_p": 0.0399,
+      "mwu_p": 0.0745,
+      "total_counts": 1033
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": -0.031,
+      "ci95": [
+       -0.442,
+       0.38
+      ],
+      "qpois_p": 0.882,
+      "mwu_p": 0.963,
+      "total_counts": 284
+     },
+     "OGG1": {
+      "log2RR": -0.218,
+      "ci95": [
+       -0.567,
+       0.13
+      ],
+      "qpois_p": 0.219,
+      "mwu_p": 0.321,
+      "total_counts": 693
+     },
+     "ERCC1": {
+      "log2RR": -0.07,
+      "ci95": [
+       -0.43,
+       0.291
+      ],
+      "qpois_p": 0.704,
+      "mwu_p": 0.888,
+      "total_counts": 1026
+     },
+     "PARP1": {
+      "log2RR": -0.316,
+      "ci95": [
+       -0.604,
+       -0.029
+      ],
+      "qpois_p": 0.0311,
+      "mwu_p": 0.167,
+      "total_counts": 1131
+     },
+     "MLH1": {
+      "log2RR": -0.083,
+      "ci95": [
+       -0.344,
+       0.178
+      ],
+      "qpois_p": 0.534,
+      "mwu_p": 0.37,
+      "total_counts": 1115
+     },
+     "MSH2": {
+      "log2RR": -0.036,
+      "ci95": [
+       -0.406,
+       0.334
+      ],
+      "qpois_p": 0.849,
+      "mwu_p": 0.321,
+      "total_counts": 1607
+     },
+     "XRCC5": {
+      "log2RR": -0.139,
+      "ci95": [
+       -0.363,
+       0.085
+      ],
+      "qpois_p": 0.224,
+      "mwu_p": 0.277,
+      "total_counts": 5217
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 4,
+      "n_genes_lower_in_case": 4,
+      "mean_z_case": -0.374,
+      "mean_z_ctl": 0.398,
+      "mwu_p": 0.0079
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 9,
+      "mean_z_case": -0.183,
+      "mean_z_ctl": 0.217,
+      "mwu_p": 0.036
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 18.64,
+     "S16": 15.81,
+     "S17": 15.45,
+     "S20": 22.4,
+     "S23": 21.96,
+     "S26": 19.06,
+     "S30": 33.37,
+     "S4": 16.88,
+     "S7": 6.68,
+     "S14": 32.36,
+     "S15": 41.65,
+     "S18": 22.31,
+     "S24": 28.52,
+     "S27": 15.97,
+     "S31": 25.45,
+     "S8": 23.34,
+     "S9": 33.43,
+     "S12": 23.95,
+     "S19": 24.86,
+     "S22": 21.0,
+     "S3": 18.91,
+     "S32": 24.17,
+     "S35": 32.55,
+     "S5": 18.59
+    }
+   },
+   "Oligodendrocyte": {
+    "n_donors": {
+     "CTE": 10,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "CTE": 525.5,
+     "Control": 1858.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.54,
+      "ci95": [
+       -0.915,
+       -0.165
+      ],
+      "qpois_p": 0.00476,
+      "mwu_p": 0.0117,
+      "total_counts": 2047,
+      "bh_adj_p_across_types": 0.00793
+     },
+     "CCND1": {
+      "log2RR": -0.058,
+      "ci95": [
+       -0.657,
+       0.542
+      ],
+      "qpois_p": 0.851,
+      "mwu_p": 0.398,
+      "total_counts": 247
+     },
+     "CDK4": {
+      "log2RR": -0.467,
+      "ci95": [
+       -0.852,
+       -0.082
+      ],
+      "qpois_p": 0.0174,
+      "mwu_p": 0.0205,
+      "total_counts": 625
+     },
+     "CDK6": {
+      "log2RR": -0.105,
+      "ci95": [
+       -0.271,
+       0.061
+      ],
+      "qpois_p": 0.216,
+      "mwu_p": 0.46,
+      "total_counts": 29867
+     },
+     "CCNE1": {
+      "log2RR": 0.34,
+      "ci95": [
+       -0.26,
+       0.94
+      ],
+      "qpois_p": 0.266,
+      "mwu_p": 0.408,
+      "total_counts": 169
+     },
+     "CDK2": {
+      "log2RR": 1.366,
+      "ci95": [
+       0.023,
+       2.708
+      ],
+      "qpois_p": 0.0461,
+      "mwu_p": 0.964,
+      "total_counts": 54
+     },
+     "CCNA2": {
+      "log2RR": 0.125,
+      "ci95": [
+       -0.343,
+       0.593
+      ],
+      "qpois_p": 0.6,
+      "mwu_p": 0.274,
+      "total_counts": 403
+     },
+     "CCNB1": {
+      "log2RR": -0.236,
+      "ci95": [
+       -0.855,
+       0.383
+      ],
+      "qpois_p": 0.456,
+      "mwu_p": 0.122,
+      "total_counts": 164
+     },
+     "CDK1": {
+      "log2RR": 1.324,
+      "ci95": [
+       -0.204,
+       2.853
+      ],
+      "qpois_p": 0.0895,
+      "mwu_p": 0.228,
+      "total_counts": 43
+     },
+     "E2F1": {
+      "log2RR": -0.458,
+      "ci95": [
+       -1.138,
+       0.222
+      ],
+      "qpois_p": 0.187,
+      "mwu_p": 0.101,
+      "total_counts": 274
+     },
+     "PCNA": {
+      "log2RR": -0.527,
+      "ci95": [
+       -0.985,
+       -0.069
+      ],
+      "qpois_p": 0.0241,
+      "mwu_p": 0.122,
+      "total_counts": 587
+     },
+     "MCM2": {
+      "log2RR": -0.394,
+      "ci95": [
+       -0.975,
+       0.187
+      ],
+      "qpois_p": 0.184,
+      "mwu_p": 0.351,
+      "total_counts": 114
+     },
+     "MKI67": {
+      "log2RR": 26.525,
+      "ci95": [
+       -9305.216,
+       9358.266
+      ],
+      "qpois_p": 0.996,
+      "mwu_p": 0.434,
+      "total_counts": 20
+     },
+     "ATM": {
+      "log2RR": -0.05,
+      "ci95": [
+       -0.289,
+       0.189
+      ],
+      "qpois_p": 0.68,
+      "mwu_p": 0.696,
+      "total_counts": 25231
+     },
+     "BRCA1": {
+      "log2RR": -0.158,
+      "ci95": [
+       -0.432,
+       0.116
+      ],
+      "qpois_p": 0.258,
+      "mwu_p": 0.173,
+      "total_counts": 5220
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": 0.045,
+      "ci95": [
+       -0.178,
+       0.268
+      ],
+      "qpois_p": 0.692,
+      "mwu_p": 0.515,
+      "total_counts": 1028
+     },
+     "OGG1": {
+      "log2RR": 0.153,
+      "ci95": [
+       -0.102,
+       0.409
+      ],
+      "qpois_p": 0.239,
+      "mwu_p": 0.237,
+      "total_counts": 2124
+     },
+     "ERCC1": {
+      "log2RR": 0.038,
+      "ci95": [
+       -0.144,
+       0.22
+      ],
+      "qpois_p": 0.682,
+      "mwu_p": 0.46,
+      "total_counts": 1590
+     },
+     "PARP1": {
+      "log2RR": -0.418,
+      "ci95": [
+       -0.606,
+       -0.229
+      ],
+      "qpois_p": 1.37e-05,
+      "mwu_p": 0.0434,
+      "total_counts": 3978
+     },
+     "MLH1": {
+      "log2RR": -0.091,
+      "ci95": [
+       -0.267,
+       0.085
+      ],
+      "qpois_p": 0.311,
+      "mwu_p": 0.829,
+      "total_counts": 5329
+     },
+     "MSH2": {
+      "log2RR": 0.132,
+      "ci95": [
+       -0.081,
+       0.345
+      ],
+      "qpois_p": 0.225,
+      "mwu_p": 0.101,
+      "total_counts": 9168
+     },
+     "XRCC5": {
+      "log2RR": -0.134,
+      "ci95": [
+       -0.268,
+       -0.0
+      ],
+      "qpois_p": 0.0494,
+      "mwu_p": 0.0117,
+      "total_counts": 16356
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.169,
+      "mean_z_ctl": 0.334,
+      "mwu_p": 0.00206
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 5,
+      "mean_z_case": -0.02,
+      "mean_z_ctl": 0.164,
+      "mwu_p": 0.146
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 14.04,
+     "S16": 15.5,
+     "S17": 13.57,
+     "S2": 15.49,
+     "S20": 15.99,
+     "S23": 18.83,
+     "S26": 23.15,
+     "S30": 35.26,
+     "S4": 13.21,
+     "S7": 7.35,
+     "S14": 25.28,
+     "S15": 37.58,
+     "S18": 21.28,
+     "S24": 31.27,
+     "S27": 18.61,
+     "S31": 24.22,
+     "S8": 16.06,
+     "S9": 23.68,
+     "S11": 18.8,
+     "S12": 21.86,
+     "S19": 16.72,
+     "S22": 24.68,
+     "S28": 10.99,
+     "S3": 17.46,
+     "S32": 12.48,
+     "S35": 23.81,
+     "S5": 19.53
+    }
+   }
+  },
+  "genes_missing": []
+ },
+ "GSE261807_RHI_vs_Control": {
+  "n_nuclei_qc": 200433,
+  "assigned_fraction": 0.693,
+  "nuclei_by_type": {
+   "Unassigned": 61607,
+   "Excitatory": 42040,
+   "Oligodendrocyte": 31020,
+   "Astrocyte": 29702,
+   "Inhibitory": 26474,
+   "Microglia": 9590
+  },
+  "types": {
+   "Excitatory": {
+    "n_donors": {
+     "RHI": 9,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "RHI": 1309.0,
+     "Control": 1780.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.248,
+      "ci95": [
+       -0.563,
+       0.067
+      ],
+      "qpois_p": 0.123,
+      "mwu_p": 0.673,
+      "total_counts": 20317,
+      "bh_adj_p_across_types": 0.154
+     },
+     "CCND1": {
+      "log2RR": 0.002,
+      "ci95": [
+       -0.4,
+       0.405
+      ],
+      "qpois_p": 0.992,
+      "mwu_p": 0.423,
+      "total_counts": 691
+     },
+     "CDK4": {
+      "log2RR": -0.133,
+      "ci95": [
+       -0.453,
+       0.186
+      ],
+      "qpois_p": 0.413,
+      "mwu_p": 0.167,
+      "total_counts": 2147
+     },
+     "CDK6": {
+      "log2RR": -0.0,
+      "ci95": [
+       -0.144,
+       0.143
+      ],
+      "qpois_p": 0.996,
+      "mwu_p": 0.541,
+      "total_counts": 62779
+     },
+     "CCNE1": {
+      "log2RR": -0.04,
+      "ci95": [
+       -0.255,
+       0.175
+      ],
+      "qpois_p": 0.714,
+      "mwu_p": 0.277,
+      "total_counts": 1230
+     },
+     "CDK2": {
+      "log2RR": 0.036,
+      "ci95": [
+       -0.66,
+       0.733
+      ],
+      "qpois_p": 0.919,
+      "mwu_p": 0.596,
+      "total_counts": 59
+     },
+     "CCNA2": {
+      "log2RR": -0.225,
+      "ci95": [
+       -0.542,
+       0.093
+      ],
+      "qpois_p": 0.165,
+      "mwu_p": 0.0927,
+      "total_counts": 1314
+     },
+     "CCNB1": {
+      "log2RR": -0.16,
+      "ci95": [
+       -0.569,
+       0.249
+      ],
+      "qpois_p": 0.443,
+      "mwu_p": 0.167,
+      "total_counts": 1642
+     },
+     "CDK1": {
+      "log2RR": -0.138,
+      "ci95": [
+       -0.967,
+       0.69
+      ],
+      "qpois_p": 0.744,
+      "mwu_p": 0.743,
+      "total_counts": 105
+     },
+     "E2F1": {
+      "log2RR": 0.243,
+      "ci95": [
+       -0.051,
+       0.537
+      ],
+      "qpois_p": 0.105,
+      "mwu_p": 0.0745,
+      "total_counts": 738
+     },
+     "PCNA": {
+      "log2RR": -0.005,
+      "ci95": [
+       -0.301,
+       0.291
+      ],
+      "qpois_p": 0.974,
+      "mwu_p": 0.541,
+      "total_counts": 1366
+     },
+     "MCM2": {
+      "log2RR": 0.104,
+      "ci95": [
+       -0.39,
+       0.598
+      ],
+      "qpois_p": 0.679,
+      "mwu_p": 0.888,
+      "total_counts": 175
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.17,
+      "ci95": [
+       0.06,
+       0.28
+      ],
+      "qpois_p": 0.00247,
+      "mwu_p": 0.0745,
+      "total_counts": 44188
+     },
+     "BRCA1": {
+      "log2RR": -0.313,
+      "ci95": [
+       -0.726,
+       0.101
+      ],
+      "qpois_p": 0.139,
+      "mwu_p": 0.167,
+      "total_counts": 7629
+     },
+     "RAD51": {
+      "log2RR": -1.303,
+      "ci95": [
+       -2.764,
+       0.158
+      ],
+      "qpois_p": 0.0804,
+      "mwu_p": 0.0852,
+      "total_counts": 23
+     },
+     "XRCC1": {
+      "log2RR": 0.008,
+      "ci95": [
+       -0.153,
+       0.168
+      ],
+      "qpois_p": 0.925,
+      "mwu_p": 0.743,
+      "total_counts": 4465
+     },
+     "OGG1": {
+      "log2RR": -0.087,
+      "ci95": [
+       -0.413,
+       0.239
+      ],
+      "qpois_p": 0.601,
+      "mwu_p": 1.0,
+      "total_counts": 10492
+     },
+     "ERCC1": {
+      "log2RR": -0.119,
+      "ci95": [
+       -0.409,
+       0.17
+      ],
+      "qpois_p": 0.42,
+      "mwu_p": 0.815,
+      "total_counts": 18141
+     },
+     "PARP1": {
+      "log2RR": -0.24,
+      "ci95": [
+       -0.401,
+       -0.08
+      ],
+      "qpois_p": 0.00328,
+      "mwu_p": 0.0111,
+      "total_counts": 15503
+     },
+     "MLH1": {
+      "log2RR": -0.076,
+      "ci95": [
+       -0.224,
+       0.071
+      ],
+      "qpois_p": 0.311,
+      "mwu_p": 0.321,
+      "total_counts": 13640
+     },
+     "MSH2": {
+      "log2RR": 0.066,
+      "ci95": [
+       -0.05,
+       0.182
+      ],
+      "qpois_p": 0.268,
+      "mwu_p": 0.541,
+      "total_counts": 54873
+     },
+     "XRCC5": {
+      "log2RR": -0.084,
+      "ci95": [
+       -0.176,
+       0.007
+      ],
+      "qpois_p": 0.0706,
+      "mwu_p": 0.036,
+      "total_counts": 51471
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 10,
+      "n_genes_lower_in_case": 6,
+      "mean_z_case": -0.102,
+      "mean_z_ctl": 0.24,
+      "mwu_p": 0.236
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 6,
+      "mean_z_case": 0.061,
+      "mean_z_ctl": 0.239,
+      "mwu_p": 0.541
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 28.51,
+     "S16": 33.32,
+     "S17": 23.92,
+     "S2": 36.44,
+     "S20": 29.08,
+     "S23": 31.17,
+     "S26": 33.76,
+     "S30": 60.97,
+     "S34": 59.06,
+     "S4": 35.98,
+     "S7": 28.15,
+     "S14": 51.31,
+     "S15": 58.48,
+     "S18": 37.14,
+     "S24": 48.59,
+     "S27": 34.58,
+     "S31": 36.38,
+     "S8": 32.27,
+     "S9": 39.66,
+     "S11": 59.65,
+     "S12": 38.75,
+     "S19": 35.65,
+     "S22": 52.29,
+     "S28": 42.03,
+     "S3": 28.41,
+     "S32": 27.68,
+     "S35": 41.25,
+     "S5": 31.65
+    }
+   },
+   "Inhibitory": {
+    "n_donors": {
+     "RHI": 9,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "RHI": 638.0,
+     "Control": 1228.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.319,
+      "ci95": [
+       -0.63,
+       -0.009
+      ],
+      "qpois_p": 0.0434,
+      "mwu_p": 0.0927,
+      "total_counts": 6875,
+      "bh_adj_p_across_types": 0.108
+     },
+     "CCND1": {
+      "log2RR": -0.703,
+      "ci95": [
+       -1.127,
+       -0.279
+      ],
+      "qpois_p": 0.00116,
+      "mwu_p": 0.0037,
+      "total_counts": 1245
+     },
+     "CDK4": {
+      "log2RR": -0.149,
+      "ci95": [
+       -0.471,
+       0.172
+      ],
+      "qpois_p": 0.363,
+      "mwu_p": 0.2,
+      "total_counts": 1157
+     },
+     "CDK6": {
+      "log2RR": 0.031,
+      "ci95": [
+       -0.191,
+       0.252
+      ],
+      "qpois_p": 0.784,
+      "mwu_p": 0.815,
+      "total_counts": 12570
+     },
+     "CCNE1": {
+      "log2RR": -0.215,
+      "ci95": [
+       -0.471,
+       0.042
+      ],
+      "qpois_p": 0.101,
+      "mwu_p": 0.236,
+      "total_counts": 1034
+     },
+     "CDK2": {
+      "log2RR": 0.901,
+      "ci95": [
+       -0.144,
+       1.945
+      ],
+      "qpois_p": 0.0909,
+      "mwu_p": 0.411,
+      "total_counts": 22
+     },
+     "CCNA2": {
+      "log2RR": 0.076,
+      "ci95": [
+       -0.218,
+       0.371
+      ],
+      "qpois_p": 0.612,
+      "mwu_p": 0.606,
+      "total_counts": 678
+     },
+     "CCNB1": {
+      "log2RR": -0.22,
+      "ci95": [
+       -0.599,
+       0.159
+      ],
+      "qpois_p": 0.254,
+      "mwu_p": 0.139,
+      "total_counts": 554
+     },
+     "CDK1": {
+      "log2RR": -0.347,
+      "ci95": [
+       -1.466,
+       0.772
+      ],
+      "qpois_p": 0.543,
+      "mwu_p": 0.531,
+      "total_counts": 33
+     },
+     "E2F1": {
+      "log2RR": -0.069,
+      "ci95": [
+       -0.593,
+       0.454
+      ],
+      "qpois_p": 0.795,
+      "mwu_p": 0.673,
+      "total_counts": 142
+     },
+     "PCNA": {
+      "log2RR": -0.31,
+      "ci95": [
+       -0.576,
+       -0.044
+      ],
+      "qpois_p": 0.0224,
+      "mwu_p": 0.0745,
+      "total_counts": 843
+     },
+     "MCM2": {
+      "log2RR": -0.63,
+      "ci95": [
+       -1.229,
+       -0.031
+      ],
+      "qpois_p": 0.0392,
+      "mwu_p": 0.0927,
+      "total_counts": 114
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": 0.174,
+      "ci95": [
+       0.029,
+       0.319
+      ],
+      "qpois_p": 0.0187,
+      "mwu_p": 0.167,
+      "total_counts": 21106
+     },
+     "BRCA1": {
+      "log2RR": -0.111,
+      "ci95": [
+       -0.508,
+       0.286
+      ],
+      "qpois_p": 0.585,
+      "mwu_p": 0.541,
+      "total_counts": 3570
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": 0.035,
+      "ci95": [
+       -0.166,
+       0.235
+      ],
+      "qpois_p": 0.734,
+      "mwu_p": 0.888,
+      "total_counts": 2266
+     },
+     "OGG1": {
+      "log2RR": 0.093,
+      "ci95": [
+       -0.191,
+       0.376
+      ],
+      "qpois_p": 0.522,
+      "mwu_p": 0.0927,
+      "total_counts": 3729
+     },
+     "ERCC1": {
+      "log2RR": -0.045,
+      "ci95": [
+       -0.283,
+       0.193
+      ],
+      "qpois_p": 0.711,
+      "mwu_p": 0.606,
+      "total_counts": 4718
+     },
+     "PARP1": {
+      "log2RR": -0.248,
+      "ci95": [
+       -0.415,
+       -0.081
+      ],
+      "qpois_p": 0.00355,
+      "mwu_p": 0.0037,
+      "total_counts": 5430
+     },
+     "MLH1": {
+      "log2RR": 0.017,
+      "ci95": [
+       -0.115,
+       0.149
+      ],
+      "qpois_p": 0.799,
+      "mwu_p": 0.743,
+      "total_counts": 6968
+     },
+     "MSH2": {
+      "log2RR": 0.003,
+      "ci95": [
+       -0.138,
+       0.143
+      ],
+      "qpois_p": 0.967,
+      "mwu_p": 0.963,
+      "total_counts": 21838
+     },
+     "XRCC5": {
+      "log2RR": -0.129,
+      "ci95": [
+       -0.237,
+       -0.02
+      ],
+      "qpois_p": 0.02,
+      "mwu_p": 0.0464,
+      "total_counts": 23214
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.04,
+      "mean_z_ctl": 0.336,
+      "mwu_p": 0.0745
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 4,
+      "mean_z_case": 0.104,
+      "mean_z_ctl": 0.125,
+      "mwu_p": 0.963
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 23.88,
+     "S16": 26.71,
+     "S17": 24.29,
+     "S2": 26.92,
+     "S20": 32.48,
+     "S23": 22.81,
+     "S26": 26.81,
+     "S30": 36.18,
+     "S34": 76.87,
+     "S4": 29.54,
+     "S7": 22.89,
+     "S14": 42.81,
+     "S15": 45.03,
+     "S18": 35.39,
+     "S24": 52.45,
+     "S27": 29.52,
+     "S31": 32.13,
+     "S8": 26.15,
+     "S9": 40.75,
+     "S11": 39.08,
+     "S12": 30.73,
+     "S19": 31.33,
+     "S22": 42.1,
+     "S28": 24.68,
+     "S3": 26.21,
+     "S32": 21.42,
+     "S35": 34.84,
+     "S5": 26.2
+    }
+   },
+   "Astrocyte": {
+    "n_donors": {
+     "RHI": 9,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "RHI": 752.0,
+     "Control": 1108.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.222,
+      "ci95": [
+       -0.761,
+       0.317
+      ],
+      "qpois_p": 0.42,
+      "mwu_p": 0.541,
+      "total_counts": 1525,
+      "bh_adj_p_across_types": 0.42
+     },
+     "CCND1": {
+      "log2RR": 0.058,
+      "ci95": [
+       -0.927,
+       1.042
+      ],
+      "qpois_p": 0.909,
+      "mwu_p": 0.815,
+      "total_counts": 201
+     },
+     "CDK4": {
+      "log2RR": -0.097,
+      "ci95": [
+       -0.502,
+       0.308
+      ],
+      "qpois_p": 0.64,
+      "mwu_p": 0.963,
+      "total_counts": 616
+     },
+     "CDK6": {
+      "log2RR": 0.504,
+      "ci95": [
+       -0.222,
+       1.23
+      ],
+      "qpois_p": 0.173,
+      "mwu_p": 0.0927,
+      "total_counts": 1936
+     },
+     "CCNE1": {
+      "log2RR": 0.277,
+      "ci95": [
+       -0.211,
+       0.765
+      ],
+      "qpois_p": 0.266,
+      "mwu_p": 0.167,
+      "total_counts": 237
+     },
+     "CDK2": {
+      "log2RR": 1.697,
+      "ci95": [
+       0.234,
+       3.16
+      ],
+      "qpois_p": 0.023,
+      "mwu_p": 0.673,
+      "total_counts": 185
+     },
+     "CCNA2": {
+      "log2RR": -0.211,
+      "ci95": [
+       -0.862,
+       0.439
+      ],
+      "qpois_p": 0.524,
+      "mwu_p": 0.481,
+      "total_counts": 252
+     },
+     "CCNB1": {
+      "log2RR": -0.123,
+      "ci95": [
+       -0.652,
+       0.407
+      ],
+      "qpois_p": 0.65,
+      "mwu_p": 0.277,
+      "total_counts": 160
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": 0.442,
+      "ci95": [
+       -0.268,
+       1.151
+      ],
+      "qpois_p": 0.222,
+      "mwu_p": 0.743,
+      "total_counts": 99
+     },
+     "PCNA": {
+      "log2RR": -0.231,
+      "ci95": [
+       -0.673,
+       0.211
+      ],
+      "qpois_p": 0.305,
+      "mwu_p": 0.423,
+      "total_counts": 521
+     },
+     "MCM2": {
+      "log2RR": 0.417,
+      "ci95": [
+       -0.529,
+       1.363
+      ],
+      "qpois_p": 0.388,
+      "mwu_p": 0.358,
+      "total_counts": 45
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.043,
+      "ci95": [
+       -0.223,
+       0.137
+      ],
+      "qpois_p": 0.639,
+      "mwu_p": 0.606,
+      "total_counts": 13099
+     },
+     "BRCA1": {
+      "log2RR": -0.115,
+      "ci95": [
+       -0.382,
+       0.153
+      ],
+      "qpois_p": 0.4,
+      "mwu_p": 0.236,
+      "total_counts": 3590
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": -0.155,
+      "ci95": [
+       -0.604,
+       0.293
+      ],
+      "qpois_p": 0.498,
+      "mwu_p": 0.743,
+      "total_counts": 917
+     },
+     "OGG1": {
+      "log2RR": -0.091,
+      "ci95": [
+       -0.303,
+       0.121
+      ],
+      "qpois_p": 0.402,
+      "mwu_p": 0.541,
+      "total_counts": 2953
+     },
+     "ERCC1": {
+      "log2RR": -0.163,
+      "ci95": [
+       -0.532,
+       0.206
+      ],
+      "qpois_p": 0.387,
+      "mwu_p": 0.606,
+      "total_counts": 1564
+     },
+     "PARP1": {
+      "log2RR": -0.278,
+      "ci95": [
+       -0.587,
+       0.031
+      ],
+      "qpois_p": 0.0783,
+      "mwu_p": 0.0927,
+      "total_counts": 3422
+     },
+     "MLH1": {
+      "log2RR": -0.015,
+      "ci95": [
+       -0.232,
+       0.202
+      ],
+      "qpois_p": 0.89,
+      "mwu_p": 0.423,
+      "total_counts": 4697
+     },
+     "MSH2": {
+      "log2RR": 0.134,
+      "ci95": [
+       -0.209,
+       0.478
+      ],
+      "qpois_p": 0.443,
+      "mwu_p": 0.0927,
+      "total_counts": 4405
+     },
+     "XRCC5": {
+      "log2RR": 0.096,
+      "ci95": [
+       -0.179,
+       0.372
+      ],
+      "qpois_p": 0.493,
+      "mwu_p": 0.277,
+      "total_counts": 15832
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 8,
+      "n_genes_lower_in_case": 4,
+      "mean_z_case": 0.07,
+      "mean_z_ctl": 0.027,
+      "mwu_p": 0.815
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": 0.02,
+      "mean_z_ctl": 0.124,
+      "mwu_p": 0.743
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 9.53,
+     "S16": 12.96,
+     "S17": 16.89,
+     "S2": 9.63,
+     "S20": 10.33,
+     "S23": 15.22,
+     "S26": 10.67,
+     "S30": 26.26,
+     "S34": 9.83,
+     "S4": 11.08,
+     "S7": 8.19,
+     "S14": 19.34,
+     "S15": 23.82,
+     "S18": 15.84,
+     "S24": 19.93,
+     "S27": 13.47,
+     "S31": 12.2,
+     "S8": 7.94,
+     "S9": 20.6,
+     "S11": 7.61,
+     "S12": 14.64,
+     "S19": 20.98,
+     "S22": 19.99,
+     "S28": 8.2,
+     "S3": 10.42,
+     "S32": 12.11,
+     "S35": 20.18,
+     "S5": 18.75
+    }
+   },
+   "Microglia": {
+    "n_donors": {
+     "RHI": 7,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "RHI": 355.0,
+     "Control": 427.5
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.314,
+      "ci95": [
+       -0.659,
+       0.031
+      ],
+      "qpois_p": 0.074,
+      "mwu_p": 0.281,
+      "total_counts": 669,
+      "bh_adj_p_across_types": 0.123
+     },
+     "CCND1": {
+      "log2RR": 0.049,
+      "ci95": [
+       -0.786,
+       0.883
+      ],
+      "qpois_p": 0.909,
+      "mwu_p": 0.613,
+      "total_counts": 974
+     },
+     "CDK4": {
+      "log2RR": 0.13,
+      "ci95": [
+       -0.364,
+       0.624
+      ],
+      "qpois_p": 0.606,
+      "mwu_p": 0.694,
+      "total_counts": 184
+     },
+     "CDK6": {
+      "log2RR": -0.345,
+      "ci95": [
+       -0.831,
+       0.14
+      ],
+      "qpois_p": 0.163,
+      "mwu_p": 0.0401,
+      "total_counts": 4967
+     },
+     "CCNE1": {
+      "log2RR": -0.069,
+      "ci95": [
+       -1.054,
+       0.916
+      ],
+      "qpois_p": 0.891,
+      "mwu_p": 1.0,
+      "total_counts": 42
+     },
+     "CDK2": {
+      "log2RR": 0.088,
+      "ci95": [
+       -1.528,
+       1.704
+      ],
+      "qpois_p": 0.915,
+      "mwu_p": 0.444,
+      "total_counts": 47
+     },
+     "CCNA2": {
+      "log2RR": -0.297,
+      "ci95": [
+       -1.306,
+       0.712
+      ],
+      "qpois_p": 0.564,
+      "mwu_p": 0.867,
+      "total_counts": 61
+     },
+     "CCNB1": {
+      "log2RR": -0.073,
+      "ci95": [
+       -0.706,
+       0.559
+      ],
+      "qpois_p": 0.82,
+      "mwu_p": 1.0,
+      "total_counts": 64
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": 0.125,
+      "ci95": [
+       -1.202,
+       1.452
+      ],
+      "qpois_p": 0.854,
+      "mwu_p": 0.86,
+      "total_counts": 31
+     },
+     "PCNA": {
+      "log2RR": -0.241,
+      "ci95": [
+       -0.682,
+       0.2
+      ],
+      "qpois_p": 0.284,
+      "mwu_p": 0.232,
+      "total_counts": 139
+     },
+     "MCM2": {
+      "log2RR": -0.875,
+      "ci95": [
+       -2.33,
+       0.58
+      ],
+      "qpois_p": 0.239,
+      "mwu_p": 0.444,
+      "total_counts": 22
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.37,
+      "ci95": [
+       -0.675,
+       -0.065
+      ],
+      "qpois_p": 0.0176,
+      "mwu_p": 0.0401,
+      "total_counts": 13305
+     },
+     "BRCA1": {
+      "log2RR": -0.268,
+      "ci95": [
+       -0.537,
+       0.001
+      ],
+      "qpois_p": 0.0511,
+      "mwu_p": 0.152,
+      "total_counts": 1015
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": -0.008,
+      "ci95": [
+       -0.458,
+       0.442
+      ],
+      "qpois_p": 0.972,
+      "mwu_p": 0.955,
+      "total_counts": 267
+     },
+     "OGG1": {
+      "log2RR": -0.097,
+      "ci95": [
+       -0.42,
+       0.226
+      ],
+      "qpois_p": 0.556,
+      "mwu_p": 0.779,
+      "total_counts": 678
+     },
+     "ERCC1": {
+      "log2RR": -0.01,
+      "ci95": [
+       -0.337,
+       0.317
+      ],
+      "qpois_p": 0.952,
+      "mwu_p": 0.779,
+      "total_counts": 979
+     },
+     "PARP1": {
+      "log2RR": -0.218,
+      "ci95": [
+       -0.527,
+       0.091
+      ],
+      "qpois_p": 0.166,
+      "mwu_p": 0.0721,
+      "total_counts": 1098
+     },
+     "MLH1": {
+      "log2RR": -0.016,
+      "ci95": [
+       -0.303,
+       0.271
+      ],
+      "qpois_p": 0.913,
+      "mwu_p": 0.613,
+      "total_counts": 1067
+     },
+     "MSH2": {
+      "log2RR": 0.261,
+      "ci95": [
+       -0.075,
+       0.597
+      ],
+      "qpois_p": 0.128,
+      "mwu_p": 0.0939,
+      "total_counts": 1687
+     },
+     "XRCC5": {
+      "log2RR": -0.06,
+      "ci95": [
+       -0.349,
+       0.229
+      ],
+      "qpois_p": 0.685,
+      "mwu_p": 0.397,
+      "total_counts": 5020
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 4,
+      "n_genes_lower_in_case": 2,
+      "mean_z_case": 0.026,
+      "mean_z_ctl": 0.398,
+      "mwu_p": 0.189
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 8,
+      "mean_z_case": -0.013,
+      "mean_z_ctl": 0.217,
+      "mwu_p": 0.232
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 18.64,
+     "S16": 15.81,
+     "S17": 15.45,
+     "S20": 22.4,
+     "S23": 21.96,
+     "S26": 19.06,
+     "S30": 33.37,
+     "S4": 16.88,
+     "S7": 6.68,
+     "S14": 32.36,
+     "S15": 41.65,
+     "S18": 22.31,
+     "S24": 28.52,
+     "S27": 15.97,
+     "S31": 25.45,
+     "S8": 23.34,
+     "S9": 33.43,
+     "S12": 23.95,
+     "S19": 24.86,
+     "S22": 21.0,
+     "S3": 18.91,
+     "S32": 24.17,
+     "S35": 32.55,
+     "S5": 18.59
+    }
+   },
+   "Oligodendrocyte": {
+    "n_donors": {
+     "RHI": 9,
+     "Control": 8
+    },
+    "median_nuclei_per_donor": {
+     "RHI": 969.0,
+     "Control": 1858.0
+    },
+    "genes": {
+     "PIN1": {
+      "log2RR": -0.582,
+      "ci95": [
+       -1.008,
+       -0.155
+      ],
+      "qpois_p": 0.00752,
+      "mwu_p": 0.0927,
+      "total_counts": 1898,
+      "bh_adj_p_across_types": 0.0376
+     },
+     "CCND1": {
+      "log2RR": -0.68,
+      "ci95": [
+       -1.659,
+       0.299
+      ],
+      "qpois_p": 0.174,
+      "mwu_p": 0.37,
+      "total_counts": 194
+     },
+     "CDK4": {
+      "log2RR": -0.419,
+      "ci95": [
+       -0.893,
+       0.055
+      ],
+      "qpois_p": 0.0829,
+      "mwu_p": 0.606,
+      "total_counts": 591
+     },
+     "CDK6": {
+      "log2RR": -0.012,
+      "ci95": [
+       -0.151,
+       0.127
+      ],
+      "qpois_p": 0.863,
+      "mwu_p": 0.321,
+      "total_counts": 28369
+     },
+     "CCNE1": {
+      "log2RR": -0.076,
+      "ci95": [
+       -0.926,
+       0.774
+      ],
+      "qpois_p": 0.861,
+      "mwu_p": 0.541,
+      "total_counts": 135
+     },
+     "CDK2": {
+      "log2RR": 0.077,
+      "ci95": [
+       -1.236,
+       1.389
+      ],
+      "qpois_p": 0.909,
+      "mwu_p": 0.523,
+      "total_counts": 29
+     },
+     "CCNA2": {
+      "log2RR": 0.152,
+      "ci95": [
+       -0.28,
+       0.584
+      ],
+      "qpois_p": 0.491,
+      "mwu_p": 0.888,
+      "total_counts": 373
+     },
+     "CCNB1": {
+      "log2RR": -0.624,
+      "ci95": [
+       -1.268,
+       0.021
+      ],
+      "qpois_p": 0.058,
+      "mwu_p": 0.0139,
+      "total_counts": 138
+     },
+     "CDK1": {
+      "status": "too few counts (<20 total)"
+     },
+     "E2F1": {
+      "log2RR": 0.085,
+      "ci95": [
+       -0.485,
+       0.655
+      ],
+      "qpois_p": 0.77,
+      "mwu_p": 0.673,
+      "total_counts": 298
+     },
+     "PCNA": {
+      "log2RR": -0.359,
+      "ci95": [
+       -0.818,
+       0.1
+      ],
+      "qpois_p": 0.125,
+      "mwu_p": 0.236,
+      "total_counts": 573
+     },
+     "MCM2": {
+      "log2RR": -0.645,
+      "ci95": [
+       -1.292,
+       0.002
+      ],
+      "qpois_p": 0.0505,
+      "mwu_p": 0.111,
+      "total_counts": 100
+     },
+     "MKI67": {
+      "status": "too few counts (<20 total)"
+     },
+     "ATM": {
+      "log2RR": -0.056,
+      "ci95": [
+       -0.216,
+       0.105
+      ],
+      "qpois_p": 0.496,
+      "mwu_p": 0.888,
+      "total_counts": 23244
+     },
+     "BRCA1": {
+      "log2RR": -0.045,
+      "ci95": [
+       -0.22,
+       0.129
+      ],
+      "qpois_p": 0.609,
+      "mwu_p": 0.0745,
+      "total_counts": 4993
+     },
+     "RAD51": {
+      "status": "too few counts (<20 total)"
+     },
+     "XRCC1": {
+      "log2RR": -0.165,
+      "ci95": [
+       -0.429,
+       0.099
+      ],
+      "qpois_p": 0.219,
+      "mwu_p": 0.2,
+      "total_counts": 889
+     },
+     "OGG1": {
+      "log2RR": 0.113,
+      "ci95": [
+       -0.191,
+       0.417
+      ],
+      "qpois_p": 0.465,
+      "mwu_p": 0.423,
+      "total_counts": 1923
+     },
+     "ERCC1": {
+      "log2RR": 0.02,
+      "ci95": [
+       -0.18,
+       0.219
+      ],
+      "qpois_p": 0.847,
+      "mwu_p": 0.606,
+      "total_counts": 1455
+     },
+     "PARP1": {
+      "log2RR": -0.374,
+      "ci95": [
+       -0.576,
+       -0.172
+      ],
+      "qpois_p": 0.000287,
+      "mwu_p": 0.139,
+      "total_counts": 3753
+     },
+     "MLH1": {
+      "log2RR": -0.155,
+      "ci95": [
+       -0.407,
+       0.096
+      ],
+      "qpois_p": 0.225,
+      "mwu_p": 0.0464,
+      "total_counts": 4833
+     },
+     "MSH2": {
+      "log2RR": 0.261,
+      "ci95": [
+       0.093,
+       0.43
+      ],
+      "qpois_p": 0.00239,
+      "mwu_p": 0.0464,
+      "total_counts": 8774
+     },
+     "XRCC5": {
+      "log2RR": -0.073,
+      "ci95": [
+       -0.203,
+       0.057
+      ],
+      "qpois_p": 0.27,
+      "mwu_p": 0.00551,
+      "total_counts": 15400
+     }
+    },
+    "sets": {
+     "CELL_CYCLE": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 7,
+      "mean_z_case": -0.109,
+      "mean_z_ctl": 0.334,
+      "mwu_p": 0.0464
+     },
+     "DNA_REPAIR": {
+      "n_genes_used": 9,
+      "n_genes_lower_in_case": 6,
+      "mean_z_case": -0.123,
+      "mean_z_ctl": 0.164,
+      "mwu_p": 0.236
+     }
+    },
+    "pin1_donor_cpm": {
+     "S1": 14.04,
+     "S16": 15.5,
+     "S17": 13.57,
+     "S2": 15.49,
+     "S20": 15.99,
+     "S23": 18.83,
+     "S26": 23.15,
+     "S30": 35.26,
+     "S4": 13.21,
+     "S7": 7.35,
+     "S14": 25.28,
+     "S15": 37.58,
+     "S18": 21.28,
+     "S24": 31.27,
+     "S27": 18.61,
+     "S31": 24.22,
+     "S8": 16.06,
+     "S9": 23.68,
+     "S11": 18.8,
+     "S12": 21.86,
+     "S19": 16.72,
+     "S22": 24.68,
+     "S28": 10.99,
+     "S3": 17.46,
+     "S32": 12.48,
+     "S35": 23.81,
+     "S5": 19.53
+    }
+   }
+  },
+  "genes_missing": []
+ },
+ "PIN1_fixed_effect_meta_CTE_vs_control": {
+  "Excitatory": {
+   "log2RR": -0.234,
+   "ci95": [
+    -0.532,
+    0.065
+   ],
+   "p": 0.125,
+   "datasets_same_direction": false
+  },
+  "Inhibitory": {
+   "log2RR": -0.4,
+   "ci95": [
+    -0.649,
+    -0.15
+   ],
+   "p": 0.00172,
+   "datasets_same_direction": true
+  },
+  "Astrocyte": {
+   "log2RR": -0.385,
+   "ci95": [
+    -0.775,
+    0.004
+   ],
+   "p": 0.0524,
+   "datasets_same_direction": true
+  },
+  "Microglia": {
+   "log2RR": -0.557,
+   "ci95": [
+    -0.87,
+    -0.244
+   ],
+   "p": 0.000486,
+   "datasets_same_direction": true
+  },
+  "Oligodendrocyte": {
+   "log2RR": -0.42,
+   "ci95": [
+    -0.759,
+    -0.081
+   ],
+   "p": 0.0152,
+   "datasets_same_direction": false
+  }
+ }
+}
