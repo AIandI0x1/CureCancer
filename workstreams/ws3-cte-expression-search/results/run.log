@@ -1,0 +1,213 @@
+data/GSE319253_featureCounts_count_matrix_human.txt.gz: OK
+{
+  "dataset": "GSE319253",
+  "n_donors": {
+    "CTE": 6,
+    "Control": 6
+  },
+  "genes": {
+    "PIN1": {
+      "log2FC_CTE_vs_ctrl": -0.664,
+      "welch_p": 0.00265,
+      "mwu_p": 0.00866
+    },
+    "CCND1": {
+      "log2FC_CTE_vs_ctrl": -0.466,
+      "welch_p": 0.139,
+      "mwu_p": 0.31
+    },
+    "CDK4": {
+      "log2FC_CTE_vs_ctrl": -0.098,
+      "welch_p": 0.573,
+      "mwu_p": 0.818
+    },
+    "CDK6": {
+      "log2FC_CTE_vs_ctrl": 0.073,
+      "welch_p": 0.847,
+      "mwu_p": 0.818
+    },
+    "CCNE1": {
+      "log2FC_CTE_vs_ctrl": -0.085,
+      "welch_p": 0.698,
+      "mwu_p": 0.818
+    },
+    "CDK2": {
+      "log2FC_CTE_vs_ctrl": 0.731,
+      "welch_p": 0.0707,
+      "mwu_p": 0.0931
+    },
+    "CCNA2": {
+      "log2FC_CTE_vs_ctrl": 0.593,
+      "welch_p": 0.0433,
+      "mwu_p": 0.026
+    },
+    "CCNB1": {
+      "log2FC_CTE_vs_ctrl": -0.196,
+      "welch_p": 0.368,
+      "mwu_p": 0.699
+    },
+    "CDK1": {
+      "log2FC_CTE_vs_ctrl": -0.098,
+      "welch_p": 0.363,
+      "mwu_p": 0.394
+    },
+    "E2F1": {
+      "log2FC_CTE_vs_ctrl": -0.176,
+      "welch_p": 0.351,
+      "mwu_p": 0.937
+    },
+    "PCNA": {
+      "log2FC_CTE_vs_ctrl": -0.307,
+      "welch_p": 0.159,
+      "mwu_p": 0.24
+    },
+    "MCM2": {
+      "log2FC_CTE_vs_ctrl": -0.678,
+      "welch_p": 0.0306,
+      "mwu_p": 0.0649
+    },
+    "MKI67": {
+      "log2FC_CTE_vs_ctrl": -0.152,
+      "welch_p": 0.405,
+      "mwu_p": 0.375
+    },
+    "ATM": {
+      "log2FC_CTE_vs_ctrl": 0.19,
+      "welch_p": 0.3,
+      "mwu_p": 0.31
+    },
+    "BRCA1": {
+      "log2FC_CTE_vs_ctrl": 0.184,
+      "welch_p": 0.532,
+      "mwu_p": 0.818
+    },
+    "RAD51": {
+      "log2FC_CTE_vs_ctrl": -0.201,
+      "welch_p": 0.134,
+      "mwu_p": 0.132
+    },
+    "XRCC1": {
+      "log2FC_CTE_vs_ctrl": -0.022,
+      "welch_p": 0.861,
+      "mwu_p": 0.818
+    },
+    "OGG1": {
+      "log2FC_CTE_vs_ctrl": 0.035,
+      "welch_p": 0.763,
+      "mwu_p": 0.818
+    },
+    "ERCC1": {
+      "log2FC_CTE_vs_ctrl": 0.02,
+      "welch_p": 0.755,
+      "mwu_p": 0.818
+    },
+    "PARP1": {
+      "log2FC_CTE_vs_ctrl": -0.03,
+      "welch_p": 0.784,
+      "mwu_p": 0.937
+    },
+    "MLH1": {
+      "log2FC_CTE_vs_ctrl": -0.09,
+      "welch_p": 0.458,
+      "mwu_p": 0.699
+    },
+    "MSH2": {
+      "log2FC_CTE_vs_ctrl": -0.255,
+      "welch_p": 0.181,
+      "mwu_p": 0.24
+    },
+    "XRCC5": {
+      "log2FC_CTE_vs_ctrl": -0.308,
+      "welch_p": 0.162,
+      "mwu_p": 0.24
+    },
+    "RBFOX3": {
+      "log2FC_CTE_vs_ctrl": -0.163,
+      "welch_p": 0.461,
+      "mwu_p": 0.589
+    },
+    "SNAP25": {
+      "log2FC_CTE_vs_ctrl": -1.123,
+      "welch_p": 0.0792,
+      "mwu_p": 0.0411
+    },
+    "SYT1": {
+      "log2FC_CTE_vs_ctrl": -0.626,
+      "welch_p": 0.189,
+      "mwu_p": 0.24
+    },
+    "GFAP": {
+      "log2FC_CTE_vs_ctrl": 0.334,
+      "welch_p": 0.319,
+      "mwu_p": 0.485
+    },
+    "AQP4": {
+      "log2FC_CTE_vs_ctrl": 1.148,
+      "welch_p": 0.00329,
+      "mwu_p": 0.00866
+    },
+    "AIF1": {
+      "log2FC_CTE_vs_ctrl": -1.335,
+      "welch_p": 0.0154,
+      "mwu_p": 0.0411
+    },
+    "CD68": {
+      "log2FC_CTE_vs_ctrl": -0.06,
+      "welch_p": 0.304,
+      "mwu_p": 0.176
+    }
+  },
+  "sets": {
+    "PIN1": {
+      "n_genes": 1,
+      "mean_z_CTE": -0.749,
+      "mean_z_Control": 0.749,
+      "mwu_p_two_sided": 0.00866,
+      "n_genes_lower_in_CTE": 1
+    },
+    "CELL_CYCLE": {
+      "n_genes": 12,
+      "mean_z_CTE": -0.138,
+      "mean_z_Control": 0.138,
+      "mwu_p_two_sided": 0.24,
+      "n_genes_lower_in_CTE": 9
+    },
+    "DNA_REPAIR": {
+      "n_genes": 10,
+      "mean_z_CTE": -0.095,
+      "mean_z_Control": 0.095,
+      "mwu_p_two_sided": 0.699,
+      "n_genes_lower_in_CTE": 6
+    },
+    "NEURON": {
+      "n_genes": 3,
+      "mean_z_CTE": -0.386,
+      "mean_z_Control": 0.386,
+      "mwu_p_two_sided": 0.0649,
+      "n_genes_lower_in_CTE": 3
+    },
+    "ASTRO": {
+      "n_genes": 2,
+      "mean_z_CTE": 0.526,
+      "mean_z_Control": -0.526,
+      "mwu_p_two_sided": 0.026,
+      "n_genes_lower_in_CTE": 0
+    },
+    "MICROGLIA": {
+      "n_genes": 2,
+      "mean_z_CTE": -0.495,
+      "mean_z_Control": 0.495,
+      "mwu_p_two_sided": 0.026,
+      "n_genes_lower_in_CTE": 2
+    }
+  },
+  "pin1_adjusted_for_neuron_score": {
+    "coef_cte": -0.429,
+    "ci95": [
+      -0.702,
+      -0.155
+    ],
+    "p": 0.00624,
+    "coef_neuron_score": 0.305
+  }
+}
