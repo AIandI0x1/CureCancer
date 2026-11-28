@@ -1,0 +1,294 @@
+data/crispr_22Q2.rda: OK
+data/metadata_22Q2.rda: OK
+{
+  "release": "DepMap 22Q2 via Bioconductor ExperimentHub (EH7554 crispr_22Q2, EH7558 metadata_22Q2)",
+  "n_genes": 17386,
+  "reference_genes": {
+    "PIN1": {
+      "n_lines": 1086,
+      "median": -0.046,
+      "q25": -0.108,
+      "q75": 0.008,
+      "frac_lt_-0.5": 0.0,
+      "frac_lt_-1": 0.0,
+      "median_rank_pct_most_essential_first": 42.9
+    },
+    "PIN4": {
+      "n_lines": 1081,
+      "median": -0.407,
+      "q25": -0.508,
+      "q75": -0.315,
+      "frac_lt_-0.5": 0.266,
+      "frac_lt_-1": 0.005,
+      "median_rank_pct_most_essential_first": 10.85
+    },
+    "PCNA": {
+      "n_lines": 1086,
+      "median": -2.414,
+      "q25": -2.482,
+      "q75": -2.346,
+      "frac_lt_-0.5": 1.0,
+      "frac_lt_-1": 0.999,
+      "median_rank_pct_most_essential_first": 0.09
+    },
+    "CDK1": {
+      "n_lines": 1086,
+      "median": -2.042,
+      "q25": -2.189,
+      "q75": -1.861,
+      "frac_lt_-0.5": 0.999,
+      "frac_lt_-1": 0.989,
+      "median_rank_pct_most_essential_first": 0.69
+    },
+    "RPL3": {
+      "n_lines": 1086,
+      "median": -2.044,
+      "q25": -2.175,
+      "q75": -1.881,
+      "frac_lt_-0.5": 1.0,
+      "frac_lt_-1": 0.999,
+      "median_rank_pct_most_essential_first": 0.68
+    }
+  },
+  "reference_genes_absent_from_release": [
+    "PPIA",
+    "POLR2A"
+  ],
+  "pin1_by_lineage_n>=10": [
+    {
+      "lineage": "breast",
+      "n": 47,
+      "median": -0.082,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.266
+    },
+    {
+      "lineage": "thyroid",
+      "n": 13,
+      "median": -0.077,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.17
+    },
+    {
+      "lineage": "soft_tissue",
+      "n": 48,
+      "median": -0.075,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.409
+    },
+    {
+      "lineage": "lymphocyte",
+      "n": 37,
+      "median": -0.075,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.368
+    },
+    {
+      "lineage": "peripheral_nervous_system",
+      "n": 38,
+      "median": -0.07,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.308
+    },
+    {
+      "lineage": "liver",
+      "n": 22,
+      "median": -0.066,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.162
+    },
+    {
+      "lineage": "colorectal",
+      "n": 58,
+      "median": -0.062,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.393
+    },
+    {
+      "lineage": "urinary_tract",
+      "n": 31,
+      "median": -0.061,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.29
+    },
+    {
+      "lineage": "central_nervous_system",
+      "n": 79,
+      "median": -0.055,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.341
+    },
+    {
+      "lineage": "ovary",
+      "n": 58,
+      "median": -0.055,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.26
+    },
+    {
+      "lineage": "cervix",
+      "n": 16,
+      "median": -0.05,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.115
+    },
+    {
+      "lineage": "bone",
+      "n": 41,
+      "median": -0.048,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.41
+    },
+    {
+      "lineage": "skin",
+      "n": 70,
+      "median": -0.046,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.248
+    },
+    {
+      "lineage": "upper_aerodigestive",
+      "n": 69,
+      "median": -0.046,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.306
+    },
+    {
+      "lineage": "esophagus",
+      "n": 32,
+      "median": -0.043,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.289
+    },
+    {
+      "lineage": "lung",
+      "n": 133,
+      "median": -0.038,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.328
+    },
+    {
+      "lineage": "uterus",
+      "n": 34,
+      "median": -0.038,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.206
+    },
+    {
+      "lineage": "blood",
+      "n": 60,
+      "median": -0.036,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.314
+    },
+    {
+      "lineage": "kidney",
+      "n": 32,
+      "median": -0.034,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.318
+    },
+    {
+      "lineage": "pancreas",
+      "n": 47,
+      "median": -0.032,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.241
+    },
+    {
+      "lineage": "gastric",
+      "n": 35,
+      "median": -0.027,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.172
+    },
+    {
+      "lineage": "bile_duct",
+      "n": 37,
+      "median": -0.026,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.169
+    },
+    {
+      "lineage": "plasma_cell",
+      "n": 21,
+      "median": -0.023,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.225
+    },
+    {
+      "lineage": "eye",
+      "n": 14,
+      "median": -0.001,
+      "frac_lt_-0.5": 0.0,
+      "min": -0.233
+    }
+  ],
+  "kruskal_wallis_pin1_across_lineages": {
+    "n_lineages": 24,
+    "H": 46.44,
+    "p": 0.00264
+  },
+  "pin1_most_dependent_lines_top10": [
+    {
+      "depmap_id": "ACH-001283",
+      "lineage": "bone",
+      "primary_disease": "Bone Cancer",
+      "dependency": -0.41
+    },
+    {
+      "depmap_id": "ACH-001128",
+      "lineage": "soft_tissue",
+      "primary_disease": "Rhabdoid",
+      "dependency": -0.409
+    },
+    {
+      "depmap_id": "ACH-000597",
+      "lineage": "soft_tissue",
+      "primary_disease": "Rhabdoid",
+      "dependency": -0.394
+    },
+    {
+      "depmap_id": "ACH-000680",
+      "lineage": "colorectal",
+      "primary_disease": "Colon/Colorectal Cancer",
+      "dependency": -0.393
+    },
+    {
+      "depmap_id": "ACH-000950",
+      "lineage": "colorectal",
+      "primary_disease": "Colon/Colorectal Cancer",
+      "dependency": -0.369
+    },
+    {
+      "depmap_id": "ACH-000567",
+      "lineage": "lymphocyte",
+      "primary_disease": "Lymphoma",
+      "dependency": -0.368
+    },
+    {
+      "depmap_id": "ACH-002228",
+      "lineage": "central_nervous_system",
+      "primary_disease": "Brain Cancer",
+      "dependency": -0.341
+    },
+    {
+      "depmap_id": "ACH-000916",
+      "lineage": "lung",
+      "primary_disease": "Lung Cancer",
+      "dependency": -0.328
+    },
+    {
+      "depmap_id": "ACH-000055",
+      "lineage": "central_nervous_system",
+      "primary_disease": "Brain Cancer",
+      "dependency": -0.323
+    },
+    {
+      "depmap_id": "ACH-001310",
+      "lineage": "kidney",
+      "primary_disease": "Non-Cancerous",
+      "dependency": -0.318
+    }
+  ]
+}
