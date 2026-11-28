@@ -1,0 +1,95 @@
+{
+  "n_samples": 667,
+  "n_by_cohort_idh": {
+    "GBM_mut": 7,
+    "GBM_wt": 145,
+    "LGG_mut": 415,
+    "LGG_wt": 99
+  },
+  "expr_all_gliomas": {
+    "n_mut": 422,
+    "n_wt": 244,
+    "median_log2_mut": 13.544,
+    "median_log2_wt": 12.009,
+    "median_diff_log2": 1.535,
+    "auc_mut_gt_wt": 0.933,
+    "mannwhitney_p": 1.76e-77
+  },
+  "expr_lgg_only": {
+    "n_mut": 415,
+    "n_wt": 99,
+    "median_log2_mut": 13.554,
+    "median_log2_wt": 12.457,
+    "median_diff_log2": 1.098,
+    "auc_mut_gt_wt": 0.865,
+    "mannwhitney_p": 1.7e-29
+  },
+  "cox_all_unadjusted": {
+    "n": 662,
+    "events": 245,
+    "covariates": [
+      "mapt_z"
+    ],
+    "hr_per_sd_mapt": 0.538,
+    "ci95": [
+      0.499,
+      0.58
+    ],
+    "p": 8.87e-58
+  },
+  "cox_all_adj_idh_age_cohort": {
+    "n": 615,
+    "events": 199,
+    "covariates": [
+      "mapt_z",
+      "idh_mut",
+      "age",
+      "gbm"
+    ],
+    "hr_per_sd_mapt": 0.83,
+    "ci95": [
+      0.667,
+      1.034
+    ],
+    "p": 0.0964
+  },
+  "cox_idh_mut_adj_age": {
+    "n": 417,
+    "events": 75,
+    "covariates": [
+      "mapt_z",
+      "age"
+    ],
+    "hr_per_sd_mapt": 0.472,
+    "ci95": [
+      0.264,
+      0.845
+    ],
+    "p": 0.0115
+  },
+  "cox_idh_wt_adj_age_cohort": {
+    "n": 198,
+    "events": 124,
+    "covariates": [
+      "mapt_z",
+      "age",
+      "gbm"
+    ],
+    "hr_per_sd_mapt": 0.95,
+    "ci95": [
+      0.749,
+      1.205
+    ],
+    "p": 0.675
+  },
+  "logrank_idh_mut_median_split": {
+    "n_high": 209,
+    "n_low": 209,
+    "p": 0.0517
+  },
+  "spearman_mapt_vs_age": {
+    "n": 616,
+    "rho": -0.397,
+    "p": 1.05e-24
+  }
+}
