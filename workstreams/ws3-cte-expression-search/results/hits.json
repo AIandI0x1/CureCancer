@@ -1,0 +1,1607 @@
+{
+  "searched_at_utc": "2026-11-27T23:58:53.327566+00:00",
+  "geo": {
+    "\"chronic traumatic encephalopathy\"": {
+      "count": 8,
+      "hits": [
+        {
+          "accession": "GSE319802",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 65,
+          "title": "Blood-brain barrier disruption in sports-related traumatic encephalopathy syndrome",
+          "pdat": "2026/03/01",
+          "summary_snippet": "Cerebrovascular disruption has been implicated in the pathophysiology of head trauma and chronic traumatic encephalopathy (CTE).  However, the long-term consequences of repetitive head trauma on blood\u2013brain barrier (BBB) integrity and its link to cognitive function remains unknown. Here, using dynam"
+        },
+        {
+          "accession": "GSE319253",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 24,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [human_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE319252",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 12,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [mouse_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE261807",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 28,
+          "title": "Repetitive head impacts induce neuroinflammation and neuronal loss in young athletes",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Repetitive head impacts (RHI) sustained from contact sports are the largest risk factor for chronic traumatic encephalopathy (CTE). Currently, CTE can only be diagnosed after death and the multicellular cascade of events that trigger initial p-tau deposition remain unclear. Further, the symptoms end"
+        },
+        {
+          "accession": "GSE273757",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 9,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia c",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273753",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 4,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia b",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273752",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 8,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia a",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE155114",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 8,
+          "title": "Altered oligodendroglia and astroglia in chronic traumatic encephalopathy",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Chronic traumatic encephalopathy (CTE) is a progressive tauopathy found in contact sport athletes, military veterans, and others exposed to repetitive head injury. Brain white matter atrophy and axonal loss have been reported in CTE but have yet to be well characterized on a molecular or cellular le"
+        }
+      ]
+    },
+    "CTE[All Fields] AND brain[All Fields] AND Homo sapiens[Organism]": {
+      "count": 35,
+      "hits": [
+        {
+          "accession": "GSE319802",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 65,
+          "title": "Blood-brain barrier disruption in sports-related traumatic encephalopathy syndrome",
+          "pdat": "2026/03/01",
+          "summary_snippet": "Cerebrovascular disruption has been implicated in the pathophysiology of head trauma and chronic traumatic encephalopathy (CTE).  However, the long-term consequences of repetitive head trauma on blood\u2013brain barrier (BBB) integrity and its link to cognitive function remains unknown. Here, using dynam"
+        },
+        {
+          "accession": "GSE319253",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 24,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [human_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE261807",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 28,
+          "title": "Repetitive head impacts induce neuroinflammation and neuronal loss in young athletes",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Repetitive head impacts (RHI) sustained from contact sports are the largest risk factor for chronic traumatic encephalopathy (CTE). Currently, CTE can only be diagnosed after death and the multicellular cascade of events that trigger initial p-tau deposition remain unclear. Further, the symptoms end"
+        },
+        {
+          "accession": "GSE155114",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 8,
+          "title": "Altered oligodendroglia and astroglia in chronic traumatic encephalopathy",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Chronic traumatic encephalopathy (CTE) is a progressive tauopathy found in contact sport athletes, military veterans, and others exposed to repetitive head injury. Brain white matter atrophy and axonal loss have been reported in CTE but have yet to be well characterized on a molecular or cellular le"
+        },
+        {
+          "accession": "GSM9514327",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient6 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514326",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient6 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514325",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient5 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514324",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient5 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514323",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient4 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514322",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient4 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514321",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient3 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514320",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient3 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514319",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient2 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514318",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient2 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514317",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient1 replicate 2",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM9514316",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Human CTE Brain (Superior Frontal Cortex) patient1 replicate 1",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Brain"
+        },
+        {
+          "accession": "GSM8152408",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S34_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152405",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S30_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152402",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S26_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152400",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S23_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152398",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S20_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152395",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S17_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152394",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S16_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152387",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S7_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152385",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S4_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152383",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S2_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM8152382",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "S1_CTE",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Dorsolateral Frontal Cortex - Brain"
+        },
+        {
+          "accession": "GSM4695780",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run5.2",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695779",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run5.1",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695778",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run4.2",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695777",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run4.1",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695776",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run3.2",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695775",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run3.1",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695774",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run2",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        },
+        {
+          "accession": "GSM4695773",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": "",
+          "title": "Control and CTE from Run1",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Dorsolateral frontal white matter"
+        }
+      ]
+    },
+    "\"repetitive head impact\"": {
+      "count": 22,
+      "hits": [
+        {
+          "accession": "GSE337851",
+          "type": "GSE",
+          "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 12,
+          "title": "Transglutaminase 2 Deletion Enhances Astrocyte-to-Neuron Metabolic Support and Attenuates Subacute Pathology Following Repetitive Mild Traumatic Brain Injury",
+          "pdat": "2026/07/16",
+          "summary_snippet": "Mild traumatic brain injury (mTBI) is the most common form of central nervous system (CNS) injury and is often characterized by persistent neuroinflammation, metabolic dysregulation, and oxidative stress. Repetitive injuries compound these pathologies and lead to multifocal axonal injuries and long-"
+        },
+        {
+          "accession": "GSE298240",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 58,
+          "title": "Inhibition of p38 MAPK after repetitive mild TBI ameliorates immune signaling and behavioral deficit",
+          "pdat": "2026/03/18",
+          "summary_snippet": "Background: Mild head injury associated with long-term functional impairments (i.e., depression, anxiety) is frequently observed among patients who experienced mild traumatic brain injury (mTBI). Moreover, repetitive injuries within a window of vulnerability can lead to exacerbated consequences comp"
+        },
+        {
+          "accession": "GSE269748",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 36,
+          "title": "A single-cell atlas deconstructs heterogeneity across multiple models in murine traumatic brain injury and identifies novel cell-specific targets",
+          "pdat": "2024/07/02",
+          "summary_snippet": "The problem of traumatic brain injury (TBI) heterogeneity has been a critical barrier to successful translation of therapies in the field. TBI heterogeneity exists in the patient substrate pre-injury (genetics, sex, comorbidities), external injury characteristics (severity, mechanism), and resultant"
+        },
+        {
+          "accession": "GSE157330",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 76,
+          "title": "Impact of total years of play and AT8 in CTE",
+          "pdat": "2023/03/15",
+          "summary_snippet": "Total years of play and phospho tau (AT8) is associated for developing Chronic Traumatic Encelopathy (CTE). Seeking to study molecular markers associated with total years of play and AT8 in athlete cohorts with severe CTE, mild CTE and repetitive head injury."
+        },
+        {
+          "accession": "GSE223042",
+          "type": "GSE",
+          "gdstype": "Expression profiling by array",
+          "taxon": "Homo sapiens",
+          "n_samples": 20,
+          "title": "Impact of gas plasma-induced chronic oxidative stress on head and neck cancer",
+          "pdat": "2023/01/19",
+          "summary_snippet": "We have employed whole genome microarray expression profiling to identify genes that are differentially expressed after a single gas plasma exposure in two different head and neck cancer cell lines. Additionally, we aimed to identify genes correlating with cellular adaptation upon repetitive oxidati"
+        },
+        {
+          "accession": "GSE212187",
+          "type": "GSE",
+          "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 6,
+          "title": "Stress induced accelerated aging in mouse eye [ChIP-seq]",
+          "pdat": "2022/11/30",
+          "summary_snippet": "Aging, a universal process that affects all cells in an organism, is a major risk factor for a group of neuropathies called glaucoma, where elevated intraocular pressure is one of the known stresses affecting the tissue. Our understanding of molecular impact of aging on response to stress in retina "
+        },
+        {
+          "accession": "GSE133997",
+          "type": "GSE",
+          "gdstype": "Non-coding RNA profiling by array",
+          "taxon": "Mus musculus",
+          "n_samples": 12,
+          "title": "Time-dependent changes of microglial exosomal miRNAs expression signatures following repetitive mild traumatic brain injury",
+          "pdat": "2019/07/10",
+          "summary_snippet": "To acquire the time profiling of miRNA levels in microglial exosomes from injured brain after rmTBI, we employed a developed rmTBI mice model, and harvested the microglial exosomes at 1, 3, 7, 14, 21, 28, 35 and 42 DPI. The exosomes were first identified by TEM scanning, NTA measurement and Western "
+        },
+        {
+          "accession": "GPL570",
+          "type": "GPL",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": 177699,
+          "title": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array",
+          "pdat": "2003/11/07",
+          "summary_snippet": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 06, 2012: annotation table updated with netaffx build 32 June 23, 2016: annot"
+        },
+        {
+          "accession": "GPL96",
+          "type": "GPL",
+          "gdstype": "",
+          "taxon": "Homo sapiens",
+          "n_samples": 43657,
+          "title": "[HG-U133A] Affymetrix Human Genome U133A Array",
+          "pdat": "2002/03/11",
+          "summary_snippet": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 08, 2012: annotation table updated with netaffx build 32 June 24, 2016: annot"
+        },
+        {
+          "accession": "GPL85",
+          "type": "GPL",
+          "gdstype": "",
+          "taxon": "Rattus norvegicus",
+          "n_samples": 3495,
+          "title": "[RG_U34A] Affymetrix Rat Genome U34 Array",
+          "pdat": "2002/03/11",
+          "summary_snippet": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 08, 2012: annotation table updated with netaffx build 32 June 27, 2016: annot"
+        },
+        {
+          "accession": "GSM3932568",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_42d_rep3",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 42d post-injury, replicate 3"
+        },
+        {
+          "accession": "GSM3932567",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_42d_rep2",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 42d post-injury, replicate 2"
+        },
+        {
+          "accession": "GSM3932566",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_42d_rep1",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 42d post-injury, replicate 1"
+        },
+        {
+          "accession": "GSM3932565",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_14d_rep3",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 14d post-injury, replicate 3"
+        },
+        {
+          "accession": "GSM3932564",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_14d_rep2",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 14d post-injury, replicate 2"
+        },
+        {
+          "accession": "GSM3932563",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_14d_rep1",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 14d post-injury, replicate 1"
+        },
+        {
+          "accession": "GSM3932562",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_3d_rep3",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 3d post-injury, replicate 3"
+        },
+        {
+          "accession": "GSM3932561",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_3d_rep2",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 3d post-injury, replicate 2"
+        },
+        {
+          "accession": "GSM3932560",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_rmTBI_3d_rep1",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, rmTBI 3d post-injury, replicate 1"
+        },
+        {
+          "accession": "GSM3932559",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_control_rep3",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, control, replicate 3"
+        },
+        {
+          "accession": "GSM3932558",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_control_rep2",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, control, replicate 2"
+        },
+        {
+          "accession": "GSM3932557",
+          "type": "GSM",
+          "gdstype": "",
+          "taxon": "Mus musculus",
+          "n_samples": "",
+          "title": "exosome_control_rep1",
+          "pdat": "2019/07/10",
+          "summary_snippet": "microglial exosome, control, replicate 1"
+        }
+      ]
+    },
+    "\"traumatic encephalopathy\"": {
+      "count": 8,
+      "hits": [
+        {
+          "accession": "GSE319802",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 65,
+          "title": "Blood-brain barrier disruption in sports-related traumatic encephalopathy syndrome",
+          "pdat": "2026/03/01",
+          "summary_snippet": "Cerebrovascular disruption has been implicated in the pathophysiology of head trauma and chronic traumatic encephalopathy (CTE).  However, the long-term consequences of repetitive head trauma on blood\u2013brain barrier (BBB) integrity and its link to cognitive function remains unknown. Here, using dynam"
+        },
+        {
+          "accession": "GSE319253",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 24,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [human_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE319252",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 12,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [mouse_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE261807",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 28,
+          "title": "Repetitive head impacts induce neuroinflammation and neuronal loss in young athletes",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Repetitive head impacts (RHI) sustained from contact sports are the largest risk factor for chronic traumatic encephalopathy (CTE). Currently, CTE can only be diagnosed after death and the multicellular cascade of events that trigger initial p-tau deposition remain unclear. Further, the symptoms end"
+        },
+        {
+          "accession": "GSE273757",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 9,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia c",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273753",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 4,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia b",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273752",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 8,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia a",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE155114",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 8,
+          "title": "Altered oligodendroglia and astroglia in chronic traumatic encephalopathy",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Chronic traumatic encephalopathy (CTE) is a progressive tauopathy found in contact sport athletes, military veterans, and others exposed to repetitive head injury. Brain white matter atrophy and axonal loss have been reported in CTE but have yet to be well characterized on a molecular or cellular le"
+        }
+      ]
+    },
+    "\"chronic traumatic encephalopathy\" AND (expression profiling by high throughput sequencing[DataSet Type] OR expression profiling by array[DataSet Type])": {
+      "count": 8,
+      "hits": [
+        {
+          "accession": "GSE319802",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 65,
+          "title": "Blood-brain barrier disruption in sports-related traumatic encephalopathy syndrome",
+          "pdat": "2026/03/01",
+          "summary_snippet": "Cerebrovascular disruption has been implicated in the pathophysiology of head trauma and chronic traumatic encephalopathy (CTE).  However, the long-term consequences of repetitive head trauma on blood\u2013brain barrier (BBB) integrity and its link to cognitive function remains unknown. Here, using dynam"
+        },
+        {
+          "accession": "GSE319253",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 24,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [human_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE319252",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 12,
+          "title": "Eicosapentaenoic Acid Reprograms Cerebrovascular Metabolism and Impairs Repair after Brain Injury, with Relevance to Chronic Traumatic Encephalopathy [mouse_brain_OnurE_RNA-seq]",
+          "pdat": "2026/02/11",
+          "summary_snippet": "Repetitive mild traumatic brain injury (rmTBI) precedes chronic traumatic encephalopathy (CTE) and involves neurovascular dysfunction. Omega-3 polyunsaturated fatty acids (PUFA) are promoted as neuroprotective, but long-term effects after brain injury remain uncertain. We uncover a metabolic vulnera"
+        },
+        {
+          "accession": "GSE261807",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 28,
+          "title": "Repetitive head impacts induce neuroinflammation and neuronal loss in young athletes",
+          "pdat": "2025/07/29",
+          "summary_snippet": "Repetitive head impacts (RHI) sustained from contact sports are the largest risk factor for chronic traumatic encephalopathy (CTE). Currently, CTE can only be diagnosed after death and the multicellular cascade of events that trigger initial p-tau deposition remain unclear. Further, the symptoms end"
+        },
+        {
+          "accession": "GSE273757",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 9,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia c",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273753",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 4,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia b",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE273752",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Mus musculus",
+          "n_samples": 8,
+          "title": "Granzyme K+ CD8 T cells slow tauopathy progression by targeting microglia a",
+          "pdat": "2025/06/20",
+          "summary_snippet": "Neurodegenerative diseases trigger innate and adaptive immune responses that can either slow or accelerate disease progression. How immune cells contribute to such divergent disease outcomes is not entirely clear. Here, we sought to define beneficial immune pressure that emerged during development o"
+        },
+        {
+          "accession": "GSE155114",
+          "type": "GSE",
+          "gdstype": "Expression profiling by high throughput sequencing",
+          "taxon": "Homo sapiens",
+          "n_samples": 8,
+          "title": "Altered oligodendroglia and astroglia in chronic traumatic encephalopathy",
+          "pdat": "2021/05/24",
+          "summary_snippet": "Chronic traumatic encephalopathy (CTE) is a progressive tauopathy found in contact sport athletes, military veterans, and others exposed to repetitive head injury. Brain white matter atrophy and axonal loss have been reported in CTE but have yet to be well characterized on a molecular or cellular le"
+        }
+      ]
+    }
+  },
+  "synapse": {
+    "chronic traumatic encephalopathy": {
+      "found": 695,
+      "hits": [
+        {
+          "id": "syn51217209",
+          "name": "Chronic Traumatic Encephalopathy - Emory",
+          "node_type": "project"
+        },
+        {
+          "id": "syn11612204",
+          "name": "CTE TMT - Emory and Boston",
+          "node_type": "project"
+        },
+        {
+          "id": "syn26010337",
+          "name": "chronic injuries.xlsx",
+          "node_type": "file"
+        },
+        {
+          "id": "syn64954735",
+          "name": "Chronic injuries experiment",
+          "node_type": "dataset"
+        },
+        {
+          "id": "syn26010293",
+          "name": "Chronic injuries experiment",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn206373",
+          "name": "GSE20564",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn18886182",
+          "name": "Levetiracetam chronic PK report.pdf",
+          "node_type": "file"
+        },
+        {
+          "id": "syn241297",
+          "name": "GSE16766 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn18881517",
+          "name": "Levetiracetam Chronic Study PK.xlsx",
+          "node_type": "file"
+        },
+        {
+          "id": "syn234986",
+          "name": "GSE16656 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn241309",
+          "name": "GSE16767 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn257159",
+          "name": "GSE2871",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn233495",
+          "name": "GSE16767",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn233505",
+          "name": "GSE16656",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn4939896",
+          "name": "Acceptance and  Commitment Training for Adolescents and  Young Adults with Neurofibromatosis Type  I, Plexiform Neurofibromas, and Chronic  Pain - A Phase III Clinical Trial",
+          "node_type": "project"
+        },
+        {
+          "id": "syn257160",
+          "name": "GSE2871 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn206403",
+          "name": "GSE20564 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn206236",
+          "name": "GSE5296 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn233635",
+          "name": "GSE16766",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn206221",
+          "name": "GSE5296",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn209771",
+          "name": "GSE6955",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn63944429",
+          "name": "Mouse model cutaneous imaging of chronic injuries",
+          "node_type": "dataset"
+        },
+        {
+          "id": "syn209821",
+          "name": "GSE6955 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn23585917",
+          "name": "DukeAD_PTSD",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn355064",
+          "name": "GSE5034",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn355065",
+          "name": "GSE5034 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn36530108",
+          "name": "Axon Regeneration and Vision Restoration in NF1-OPG - Phase B",
+          "node_type": "project"
+        },
+        {
+          "id": "syn21034537",
+          "name": "HeLP Challenge 2019",
+          "node_type": "project"
+        },
+        {
+          "id": "syn69761367",
+          "name": "NVS-PAK1-1-Chronic Study samplesheet- proteomic  20250829-HH.xlsx",
+          "node_type": "file"
+        },
+        {
+          "id": "syn24168326",
+          "name": "Gene Expression (scRNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn235784",
+          "name": "GSE16972 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn239232",
+          "name": "GSE16059 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn36530149",
+          "name": "NF1-OPG Pig Model Development",
+          "node_type": "project"
+        },
+        {
+          "id": "syn256799",
+          "name": "GSE26495 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn178720",
+          "name": "GSE16440",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn262744",
+          "name": "GSE8545",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn257219",
+          "name": "GSE29110",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn257220",
+          "name": "GSE29110 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn179051",
+          "name": "GSE15891 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn236829",
+          "name": "GSE10896",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn239220",
+          "name": "GSE16059",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn237101",
+          "name": "GSE11190",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn256798",
+          "name": "GSE26495",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn263590",
+          "name": "GSE9927",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn361723",
+          "name": "GSE25902 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn361722",
+          "name": "GSE25902",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn235734",
+          "name": "GSE16972",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn209647",
+          "name": "GSE28030",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn356198",
+          "name": "GSE18607",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn233322",
+          "name": "GSE9488 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        }
+      ]
+    },
+    "CTE RNA-seq": {
+      "found": 5339,
+      "hits": [
+        {
+          "id": "syn4590912",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn4588490",
+          "name": "RNA-seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn4566232",
+          "name": "RNA-seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn3270015",
+          "name": "RNA-seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn22344153",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn6039873",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn12104338",
+          "name": "Polyester RNA-Seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn5563239",
+          "name": "RNA-Seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn26448162",
+          "name": "Bulk RNA-seq",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25671146",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25672233",
+          "name": "Gene Expression (RNA-Seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20818086",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20818084",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn21861695",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn24175554",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn11612204",
+          "name": "CTE TMT - Emory and Boston",
+          "node_type": "project"
+        },
+        {
+          "id": "syn22253240",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20801188",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn4948168",
+          "name": "Introduction to RNA-Seq Analysis",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn2390898",
+          "name": "RNA-Seq SNP calls",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25914215",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn21785778",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20808134",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25927432",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn31717365",
+          "name": "iPSCs  clusterin RNA-seq",
+          "node_type": "project"
+        },
+        {
+          "id": "syn20818197",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20808171",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn23650893",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20808063",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20818200",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn20808105",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn22964719",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn21264920",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn72107170",
+          "name": "bulk RNA-seq in vitro moDCs",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn64124313",
+          "name": "single cell RNA seq PDAC",
+          "node_type": "project"
+        },
+        {
+          "id": "syn22344123",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn69847533",
+          "name": "bulk RNA-seq in vitro fibroblast",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn22336685",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn18637070",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn50909937",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn21261143",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn16805359",
+          "name": "single cell RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn3388564",
+          "name": "Gene Expression (RNA seq - bulk brain)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25316715",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn24828094",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn18670930",
+          "name": "Gene Expression (RNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn11468526",
+          "name": "Gene Expression (RNA seq - microglia)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn4949204",
+          "name": "Single-cell RNA-Seq analysis in AltAnalyze",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn22344687",
+          "name": "RNA-SEQ",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn73997380",
+          "name": "Mantel Zhang et al. 2026 - Bulk RNA-seq part B",
+          "node_type": "project"
+        }
+      ]
+    },
+    "traumatic encephalopathy brain": {
+      "found": 10000,
+      "hits": [
+        {
+          "id": "syn51217209",
+          "name": "Chronic Traumatic Encephalopathy - Emory",
+          "node_type": "project"
+        },
+        {
+          "id": "syn11612204",
+          "name": "CTE TMT - Emory and Boston",
+          "node_type": "project"
+        },
+        {
+          "id": "syn241297",
+          "name": "GSE16766 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn234986",
+          "name": "GSE16656 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn241309",
+          "name": "GSE16767 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn257159",
+          "name": "GSE2871",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn233495",
+          "name": "GSE16767",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn233505",
+          "name": "GSE16656",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn50919018",
+          "name": "Brain 3aTWAS hub",
+          "node_type": "project"
+        },
+        {
+          "id": "syn257160",
+          "name": "GSE2871 Raw Data Layer from NCBI GEO",
+          "node_type": "file"
+        },
+        {
+          "id": "syn233635",
+          "name": "GSE16766",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn23204884",
+          "name": "Brain eQTL meta-analysis",
+          "node_type": "project"
+        },
+        {
+          "id": "syn52331749",
+          "name": "Mount Sinai Brain Bank",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn3207674",
+          "name": "Brain extraction evaluation (2010)",
+          "node_type": "project"
+        },
+        {
+          "id": "syn23518162",
+          "name": "Pig Brain RNA editing",
+          "node_type": "project"
+        },
+        {
+          "id": "syn78777267",
+          "name": "KIBR Human Brain Vascular Atlas",
+          "node_type": "project"
+        },
+        {
+          "id": "syn3207152",
+          "name": "Brain registration evaluations (2008-2011)",
+          "node_type": "project"
+        },
+        {
+          "id": "syn11974918",
+          "name": "Brain Cancer",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn3208225",
+          "name": "Brain cortical features evaluation (HBM2011)",
+          "node_type": "project"
+        },
+        {
+          "id": "syn26346373",
+          "name": "Cortical Brain Organoids",
+          "node_type": "project"
+        },
+        {
+          "id": "syn9728231",
+          "name": "TransNetwork Brain Tumor Working Group",
+          "node_type": "project"
+        },
+        {
+          "id": "syn1461163",
+          "name": "Brain Lower Grade Glioma",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn24168326",
+          "name": "Gene Expression (scRNA seq)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn73569657",
+          "name": "BPSD brain proteomics",
+          "node_type": "project"
+        },
+        {
+          "id": "syn22150694",
+          "name": "Human Brain Tau Immunoprecipitation",
+          "node_type": "project"
+        },
+        {
+          "id": "syn62831033",
+          "name": "Crab-eating Macaque Brain RNA editing",
+          "node_type": "project"
+        },
+        {
+          "id": "syn20933797",
+          "name": "Consensus Brain Protein Coexpression Study",
+          "node_type": "project"
+        },
+        {
+          "id": "syn53708126",
+          "name": "Brain TumorS (BraTS) Challenges",
+          "node_type": "project"
+        },
+        {
+          "id": "syn68638197",
+          "name": "Next-Generation Preclinical Models of NF1 Brain Tumours",
+          "node_type": "project"
+        },
+        {
+          "id": "syn12599730",
+          "name": "GFAP Brain Pig.pdf",
+          "node_type": "file"
+        },
+        {
+          "id": "syn12599526",
+          "name": "MBP Brain Human.pdf",
+          "node_type": "file"
+        },
+        {
+          "id": "syn12033248",
+          "name": "Integrative Analyses of iPSC-derived Brain Organoids",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25887675",
+          "name": "Spina Bifida Aperta Spatio-temporal Brain MRI Atlas",
+          "node_type": "project"
+        },
+        {
+          "id": "syn274440",
+          "name": "TCGA Brain Lower Grade Glioma - Consolidated",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn12599741",
+          "name": "MBP Brain Pig.pdf",
+          "node_type": "file"
+        },
+        {
+          "id": "syn12599514",
+          "name": "GFAP Brain Human.pdf",
+          "node_type": "file"
+        },
+        {
+          "id": "syn36530108",
+          "name": "Axon Regeneration and Vision Restoration in NF1-OPG - Phase B",
+          "node_type": "project"
+        },
+        {
+          "id": "syn206373",
+          "name": "GSE20564",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn53752772",
+          "name": "Brain Tumor Progression Challenge",
+          "node_type": "project"
+        },
+        {
+          "id": "syn23447227",
+          "name": "Brain Somatic Mosaicism Network Reference Tissue Project",
+          "node_type": "file"
+        },
+        {
+          "id": "syn69900980",
+          "name": "2. Bulk Brain Proteome (ROSMAP)",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn25882533",
+          "name": "Knight ADRC Brain transcriptomic  for FTLD-TDP",
+          "node_type": "project"
+        },
+        {
+          "id": "syn51150434",
+          "name": "The role of sex in brain protein expression and disease",
+          "node_type": "project"
+        },
+        {
+          "id": "syn76601176",
+          "name": "Oatman. S. R et al, Brain Comm, 2026, Results",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn21781120",
+          "name": "Comprehensive identification of somatic nucleotide variants in human brain tissue",
+          "node_type": "file"
+        },
+        {
+          "id": "syn73882175",
+          "name": "Brain",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn58049257",
+          "name": "Brain",
+          "node_type": "folder"
+        },
+        {
+          "id": "syn3210862",
+          "name": "Brain, behavior, and sleep in bees (2007-2014)",
+          "node_type": "project"
+        },
+        {
+          "id": "syn20609824",
+          "name": "Hales Proteomics Paper - Detergent-Insoluble Brain Proteome",
+          "node_type": "project"
+        },
+        {
+          "id": "syn55270903",
+          "name": "Brain",
+          "node_type": "folder"
+        }
+      ]
+    }
+  }
+}
