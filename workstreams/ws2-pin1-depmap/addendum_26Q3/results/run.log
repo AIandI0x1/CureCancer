@@ -1,0 +1,186 @@
+# run 2026-11-28 (Europe/Berlin). Inputs: /home/box/Downloads/CRISPRGeneEffect.csv and Model.csv, symlinked at data/26Q3/; sha256 as in SHA256SUMS.pinned.
+../data/26Q3/CRISPRGeneEffect.csv: OK
+../data/26Q3/Model.csv: OK
+{
+    "releases": {
+        "22Q2": "DepMap 22Q2 via Bioconductor ExperimentHub (EH7554 crispr_22Q2, EH7558 metadata_22Q2)",
+        "26Q3": "DepMap 26Q3 portal files CRISPRGeneEffect.csv and Model.csv (downloaded 2026-11-28 after human verification)"
+    },
+    "n_genes": {
+        "22Q2": 17386,
+        "26Q3": 18434
+    },
+    "n_lines_PIN1": {
+        "22Q2": 1086,
+        "26Q3": 1361
+    },
+    "genes": {
+        "CDK1": {
+            "22Q2": {
+                "n_lines": 1086,
+                "median": -2.042,
+                "q25": -2.189,
+                "q75": -1.861,
+                "frac_lt_-0.5": 0.999,
+                "frac_lt_-1": 0.989,
+                "median_rank_pct_most_essential_first": 0.69
+            },
+            "26Q3": {
+                "n_lines": 1361,
+                "median": -2.625,
+                "q25": -2.94,
+                "q75": -2.257,
+                "min": -4.354,
+                "n_lt_-0.5": 1361,
+                "frac_lt_-0.5": 1.0,
+                "frac_lt_-1": 0.992,
+                "median_rank_pct_most_essential_first": 0.26
+            },
+            "delta_median_26Q3_minus_22Q2": -0.583,
+            "delta_rank_pct_26Q3_minus_22Q2": -0.43
+        },
+        "PCNA": {
+            "22Q2": {
+                "n_lines": 1086,
+                "median": -2.414,
+                "q25": -2.482,
+                "q75": -2.346,
+                "frac_lt_-0.5": 1.0,
+                "frac_lt_-1": 0.999,
+                "median_rank_pct_most_essential_first": 0.09
+            },
+            "26Q3": {
+                "n_lines": 1361,
+                "median": -3.025,
+                "q25": -3.352,
+                "q75": -2.669,
+                "min": -4.263,
+                "n_lt_-0.5": 1355,
+                "frac_lt_-0.5": 0.996,
+                "frac_lt_-1": 0.989,
+                "median_rank_pct_most_essential_first": 0.08
+            },
+            "delta_median_26Q3_minus_22Q2": -0.611,
+            "delta_rank_pct_26Q3_minus_22Q2": -0.01
+        },
+        "PIN1": {
+            "22Q2": {
+                "n_lines": 1086,
+                "median": -0.046,
+                "q25": -0.108,
+                "q75": 0.008,
+                "frac_lt_-0.5": 0.0,
+                "frac_lt_-1": 0.0,
+                "median_rank_pct_most_essential_first": 42.9
+            },
+            "26Q3": {
+                "n_lines": 1361,
+                "median": -0.007,
+                "q25": -0.1,
+                "q75": 0.082,
+                "min": -1.312,
+                "n_lt_-0.5": 14,
+                "frac_lt_-0.5": 0.01,
+                "frac_lt_-1": 0.001,
+                "median_rank_pct_most_essential_first": 58.33
+            },
+            "delta_median_26Q3_minus_22Q2": 0.039,
+            "delta_rank_pct_26Q3_minus_22Q2": 15.43
+        },
+        "PIN4": {
+            "22Q2": {
+                "n_lines": 1081,
+                "median": -0.407,
+                "q25": -0.508,
+                "q75": -0.315,
+                "frac_lt_-0.5": 0.266,
+                "frac_lt_-1": 0.005,
+                "median_rank_pct_most_essential_first": 10.85
+            },
+            "26Q3": {
+                "n_lines": 1361,
+                "median": -0.214,
+                "q25": -0.318,
+                "q75": -0.119,
+                "min": -1.103,
+                "n_lt_-0.5": 80,
+                "frac_lt_-0.5": 0.059,
+                "frac_lt_-1": 0.001,
+                "median_rank_pct_most_essential_first": 16.36
+            },
+            "delta_median_26Q3_minus_22Q2": 0.193,
+            "delta_rank_pct_26Q3_minus_22Q2": 5.51
+        },
+        "POLR2A": {
+            "22Q2": null,
+            "26Q3": null
+        },
+        "PPIA": {
+            "22Q2": null,
+            "26Q3": {
+                "n_lines": 1243,
+                "median": -0.707,
+                "q25": -0.883,
+                "q75": -0.538,
+                "min": -1.769,
+                "n_lt_-0.5": 1006,
+                "frac_lt_-0.5": 0.809,
+                "frac_lt_-1": 0.147,
+                "median_rank_pct_most_essential_first": 6.86
+            }
+        },
+        "RPL3": {
+            "22Q2": {
+                "n_lines": 1086,
+                "median": -2.044,
+                "q25": -2.175,
+                "q75": -1.881,
+                "frac_lt_-0.5": 1.0,
+                "frac_lt_-1": 0.999,
+                "median_rank_pct_most_essential_first": 0.68
+            },
+            "26Q3": {
+                "n_lines": 1361,
+                "median": -2.568,
+                "q25": -2.826,
+                "q75": -2.289,
+                "min": -3.915,
+                "n_lt_-0.5": 1342,
+                "frac_lt_-0.5": 0.986,
+                "frac_lt_-1": 0.979,
+                "median_rank_pct_most_essential_first": 0.33
+            },
+            "delta_median_26Q3_minus_22Q2": -0.524,
+            "delta_rank_pct_26Q3_minus_22Q2": -0.35
+        }
+    },
+    "kruskal_wallis_pin1_across_lineages": {
+        "22Q2": {
+            "n_lineages": 24,
+            "H": 46.44,
+            "p": 0.00264
+        },
+        "26Q3": {
+            "n_lineages": 24,
+            "H": 44.23,
+            "p": 0.00494
+        },
+        "note": "Lineage labels are not the same ontology (22Q2 DepMap lineage vs 26Q3 OncotreeLineage); H and p are not a paired test."
+    },
+    "PIN1_min": {
+        "22Q2": -0.41,
+        "26Q3": -1.312
+    },
+    "PIN1_n_lt_-0.5": {
+        "22Q2": 0,
+        "26Q3": 14
+    },
+    "PIN1_median": {
+        "22Q2": -0.046,
+        "26Q3": -0.007
+    },
+    "PIN1_median_rank_pct_most_essential_first": {
+        "22Q2": 42.9,
+        "26Q3": 58.33
+    }
+}
